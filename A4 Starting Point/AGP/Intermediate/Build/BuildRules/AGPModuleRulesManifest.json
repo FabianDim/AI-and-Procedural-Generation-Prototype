@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Repos\\A4-Repository\\A4 Starting Point\\AGP\\Source\\AGP\\AGP.Build.cs",
+		"C:\\Repos\\A4-Repository\\A4 Starting Point\\AGP\\Source\\AGP.Target.cs",
+		"C:\\Repos\\A4-Repository\\A4 Starting Point\\AGP\\Source\\AGPEditor.Target.cs"
+	],
+	"EngineVersion": "5.2.1"
+}

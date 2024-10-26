@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "AGP",
+			"Path": "D:\\Desktop\\Uni\\Advanced Game Dev\\Lab10StartingPoint\\Lab10StartingPoint\\AGP\\Source\\AGP.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "AGPEditor",
+			"Path": "D:\\Desktop\\Uni\\Advanced Game Dev\\Lab10StartingPoint\\Lab10StartingPoint\\AGP\\Source\\AGPEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}
