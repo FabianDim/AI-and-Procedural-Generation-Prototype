@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "AGP/Fabians AI Component/FabiansBehaviourTree.h"
 #include "BaseCharacter.h"
 #include "PlayerCharacter.h"
 #include "EnemyCharacter.generated.h"
@@ -32,11 +33,17 @@ UCLASS()
 class AGP_API AEnemyCharacter : public ABaseCharacter
 {
 	GENERATED_BODY()
-
+	friend class UPatrolAction;
+	friend class UMoveToPlayerAction;
+	friend class UPlayerDetectedCondition;
+	friend class UPlayerNotDetectedCondition;
+	friend class UEvadeAction;
+	friend class UHealthCondition;
 public:
 	// Sets default values for this character's properties
 	AEnemyCharacter();
-
+	void GetTickPatrol();
+	void GetTickEngage();
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -123,5 +130,10 @@ private:
 	 * @return A pointer to one APlayerCharacter actor in the world.
 	 */
 	APlayerCharacter* FindPlayer() const;
-
+	UPROPERTY()
+	UFabiansBehaviourTree* BehaviourTreeRoot;
+	UPROPERTY()
+	UPlayerDetectedCondition* PlayerDetectedCondition;
+	UPROPERTY()
+	UPlayerNotDetectedCondition* PlayerNotDetectedCondition;
 };
