@@ -6254,3 +6254,5 @@ Reload Time:   1.452651
 [2024.10.29-11.22.39:721][251]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
 [2024.10.29-11.22.39:722][251]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
 [2024.10.29-11.22.39:749][255]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2024.10.29-11.28.40:899][  5]LogSlate: Window 'Message Log' being destroyed
+[2024.10.29-11.28.40:905][  5]LogSlate: Window 'Message Log' being destroyed
