@@ -15,6 +15,6 @@ UMoveToPlayerAction::UMoveToPlayerAction()
 EStatus UMoveToPlayerAction::update()
 {
 	EnemyCharacter->TickEngage();
-	//UE_LOG(LogTemp, Error, TEXT("Move to player Action"));
+	UE_LOG(LogTemp, Error, TEXT("Move to player Action"));
 	return EStatus::Running;
-}
+}	
