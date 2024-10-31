@@ -6,7 +6,8 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"C:/Users/byrne/OneDrive/Desktop/Gamedev/A4-Repository/A4 Starting Point/AGP/Content/Levels/MultiplayerMap.umap",
-				"C:/Users/byrne/OneDrive/Desktop/Gamedev/A4-Repository/A4 Starting Point/AGP/Content/Audio/BGM_cue.uasset"
+				"C:/Users/byrne/OneDrive/Desktop/Gamedev/A4-Repository/A4 Starting Point/AGP/Content/Audio/BGM_cue.uasset",
+				"C:/Users/byrne/OneDrive/Desktop/Gamedev/A4-Repository/A4 Starting Point/AGP/Content/Blueprints/BP_PlayerCharacterHUD.uasset"
 			]
 		}
 	]
