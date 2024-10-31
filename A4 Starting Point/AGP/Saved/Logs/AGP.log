@@ -13080,3 +13080,21 @@ Reload Time:   3.641469
 [2024.10.31-09.00.06:911][567]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
 [2024.10.31-09.00.06:912][567]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
 [2024.10.31-09.00.06:947][569]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2024.10.31-09.00.23:634][881]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.31-09.00.23:691][881]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2024.10.31-09.00.23:697][881]LogPackageLocalizationCache: Processed 44 localized package path(s) for 1 prioritized culture(s) in 0.005983 seconds
+[2024.10.31-09.00.23:706][881]LogSerialization: UsePackageTrailer: 'true'
+[2024.10.31-09.00.23:753][881]LogSavePackage: Moving output files for package: /Game/Levels/MultiplayerMap
+[2024.10.31-09.00.23:754][881]LogSavePackage: Moving 'C:/Users/byrne/OneDrive/Desktop/Gamedev/A4-Repository/A4 Starting Point/AGP/Saved/MultiplayerMapFAEB639D469940364019BBB562847E8B.tmp' to 'C:/Users/byrne/OneDrive/Desktop/Gamedev/A4-Repository/A4 Starting Point/AGP/Content/Levels/MultiplayerMap.umap'
+[2024.10.31-09.00.23:761][881]LogFileHelpers: Saving map 'MultiplayerMap' took 0.085
+[2024.10.31-09.00.23:770][881]LogFileHelpers: InternalPromptForCheckoutAndSave took 135 ms
+[2024.10.31-09.00.23:775][881]AssetCheck: New page: Asset Save: MultiplayerMap
+[2024.10.31-09.00.23:775][881]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/MultiplayerMap.MultiplayerMap
+[2024.10.31-09.00.24:382][943]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.10.31-09.00.24:415][943]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2024.10.31-09.00.24:449][943]LogSavePackage: Moving output files for package: /Game/Levels/MultiplayerMap
+[2024.10.31-09.00.24:450][943]LogSavePackage: Moving 'C:/Users/byrne/OneDrive/Desktop/Gamedev/A4-Repository/A4 Starting Point/AGP/Saved/MultiplayerMapDF770FAD4B2396787F6997B96E310438.tmp' to 'C:/Users/byrne/OneDrive/Desktop/Gamedev/A4-Repository/A4 Starting Point/AGP/Content/Levels/MultiplayerMap.umap'
+[2024.10.31-09.00.24:456][943]LogFileHelpers: Saving map 'MultiplayerMap' took 0.053
+[2024.10.31-09.00.24:462][943]LogFileHelpers: InternalPromptForCheckoutAndSave took 78 ms (total: 214 ms)
+[2024.10.31-09.00.24:465][943]AssetCheck: New page: Asset Save: MultiplayerMap
+[2024.10.31-09.00.24:465][943]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/MultiplayerMap.MultiplayerMap
