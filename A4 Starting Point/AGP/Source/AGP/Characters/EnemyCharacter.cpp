@@ -11,6 +11,7 @@
 #include "AGP/Fabians AI Component/FabiansSequence.h"
 #include "AGP/Fabians AI Component/HealthCondition.h"
 #include "AGP/Fabians AI Component/MoveToPlayerAction.h"
+#include "AGP/Fabians AI Component/NoGunCondition.h"
 #include "AGP/Fabians AI Component/PatrolAction.h"
 #include "AGP/Fabians AI Component/PlayerDetectedCondition.h"
 #include "AGP/Pathfinding/PathfindingSubsystem.h"
@@ -134,6 +135,24 @@ void AEnemyCharacter::BeginPlay()
 	}
 	PatrolAction->EnemyCharacter = this;
 
+	UFabiansSelector* PatrolConditionSelector = NewObject<UFabiansSelector>(this); //to check whether one of the condition fails. run
+	if (!PatrolConditionSelector)
+	{
+		UE_LOG(LogTemp, Error, TEXT("Failed to create PatrolConditionSelector "));
+		return;
+	}
+
+	UNoGunCondition* NoGunCondition = NewObject<UNoGunCondition>(this);
+	if (!NoGunCondition)
+	{
+		UE_LOG(LogTemp, Error, TEXT("Failed to create NoGunCondition "));
+		return;
+	}
+	NoGunCondition->EnemyCharacter = this;
+
+	PatrolConditionSelector->AddChild(NoGunCondition);
+	PatrolConditionSelector->AddChild(PlayerNotDetected);
+
 	// Build sequences
 	EvadeSequence->AddChild(HealthCondition);
 	EvadeSequence->AddChild(EvadeAction);
@@ -141,7 +160,7 @@ void AEnemyCharacter::BeginPlay()
 	EngageSequence->AddChild(PlayerDetected);
 	EngageSequence->AddChild(MoveToPlayerAction);
 
-	PatrolSequence->AddChild(PlayerNotDetected);
+	PatrolSequence->AddChild(PatrolConditionSelector);
 	PatrolSequence->AddChild(PatrolAction);
 
 

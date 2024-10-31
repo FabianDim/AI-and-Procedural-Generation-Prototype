@@ -171,6 +171,12 @@
     <ClInclude Include="..\..\Source\AGP\Fabians AI Component\MoveToPlayerAction.h">
       <Filter>Source\AGP\Fabians AI Component</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\AGP\Fabians AI Component\NoGunCondition.cpp">
+      <Filter>Source\AGP\Fabians AI Component</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AGP\Fabians AI Component\NoGunCondition.h">
+      <Filter>Source\AGP\Fabians AI Component</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\AGP\Fabians AI Component\PatrolAction.cpp">
       <Filter>Source\AGP\Fabians AI Component</Filter>
     </ClCompile>
