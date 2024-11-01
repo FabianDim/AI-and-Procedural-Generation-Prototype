@@ -11,3 +11,12 @@ EStatus UNoGunCondition::update()
 	}
 	return EStatus::Success;
 }
+
+EStatus UHasGunCondition::update()
+{
+	if(EnemyCharacter && !EnemyCharacter->HasWeapon())
+	{
+		return EStatus::Failure;
+	}
+	return EStatus::Success;
+}

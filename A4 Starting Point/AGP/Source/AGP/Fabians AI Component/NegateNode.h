@@ -4,13 +4,14 @@
 
 #include "CoreMinimal.h"
 #include "FabiansBehaviourTree.h"
+#include "FabiansComposite.h"
 #include "NegateNode.generated.h"
 
 /**
  * 
  */
 UCLASS()
-class AGP_API UNegateNode : public UFabiansBehaviourTree
+class AGP_API UNegateNode : public UFabiansComposite
 {
 	GENERATED_BODY()
 	friend class UFabiansComposite;
@@ -19,6 +20,7 @@ class AGP_API UNegateNode : public UFabiansBehaviourTree
 
 	EStatus NegateFunction(EStatus Status);
 
+	virtual void OnInitialise() override;
 	
 	
 };

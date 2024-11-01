@@ -11,6 +11,7 @@
 #include "AGP/Fabians AI Component/FabiansSequence.h"
 #include "AGP/Fabians AI Component/HealthCondition.h"
 #include "AGP/Fabians AI Component/MoveToPlayerAction.h"
+#include "AGP/Fabians AI Component/NegateNode.h"
 #include "AGP/Fabians AI Component/NoGunCondition.h"
 #include "AGP/Fabians AI Component/PatrolAction.h"
 #include "AGP/Fabians AI Component/PlayerDetectedCondition.h"
@@ -149,14 +150,31 @@ void AEnemyCharacter::BeginPlay()
 		return;
 	}
 	NoGunCondition->EnemyCharacter = this;
+	UNegateNode* NoGunNegate = NewObject<UNegateNode>(this);
+	if (!NoGunNegate)
+	{
+		UE_LOG(LogTemp, Error, TEXT("Failed to create NegateNode "));
+		return;
+	}
 
+	NoGunNegate->AddChild(NoGunCondition);
+	UHasGunCondition* HasGunCondition = NewObject<UHasGunCondition>(this);
+	if (!HasGunCondition)
+	{
+		UE_LOG(LogTemp, Error, TEXT("Failed to create NoGunCondition "));
+		return;
+	}
+	HasGunCondition->EnemyCharacter = this;
+	
 	PatrolConditionSelector->AddChild(NoGunCondition);
 	PatrolConditionSelector->AddChild(PlayerNotDetected);
 
 	// Build sequences
+
 	EvadeSequence->AddChild(HealthCondition);
 	EvadeSequence->AddChild(EvadeAction);
 
+	EngageSequence->AddChild(HasGunCondition);
 	EngageSequence->AddChild(PlayerDetected);
 	EngageSequence->AddChild(MoveToPlayerAction);
 

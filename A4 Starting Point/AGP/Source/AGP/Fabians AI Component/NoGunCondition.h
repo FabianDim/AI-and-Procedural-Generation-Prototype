@@ -22,3 +22,16 @@ public:
 protected:
 	AEnemyCharacter* EnemyCharacter;
 };
+
+UCLASS()
+class UHasGunCondition : public UFabiansBehaviourTree
+{
+	GENERATED_BODY()
+	friend class AEnemyCharacter;
+
+public:
+	virtual EStatus update();
+
+protected:
+	AEnemyCharacter* EnemyCharacter;
+};
