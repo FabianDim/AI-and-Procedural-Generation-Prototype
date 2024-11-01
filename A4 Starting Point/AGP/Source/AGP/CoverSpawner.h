@@ -55,3 +55,4 @@ private:
     TArray<FVector> SpawnedCoverLocations;
     
 };
+
