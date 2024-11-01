@@ -13,6 +13,7 @@ UCLASS()
 class AGP_API UFabiansComposite : public UFabiansBehaviourTree
 {
 	GENERATED_BODY()
+	friend class UNegateNode;
 
 public:
 	void AddChild(UFabiansBehaviourTree* Child);

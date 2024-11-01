@@ -63,6 +63,12 @@
     <ClInclude Include="..\..\Source\AGP\AGPGameModeBase.h">
       <Filter>Source\AGP</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\AGP\CoverSpawner.cpp">
+      <Filter>Source\AGP</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AGP\CoverSpawner.h">
+      <Filter>Source\AGP</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\AGP\MultiplayerGameMode.cpp">
       <Filter>Source\AGP</Filter>
     </ClCompile>
@@ -169,6 +175,12 @@
       <Filter>Source\AGP\Fabians AI Component</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\AGP\Fabians AI Component\MoveToPlayerAction.h">
+      <Filter>Source\AGP\Fabians AI Component</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AGP\Fabians AI Component\NegateNode.cpp">
+      <Filter>Source\AGP\Fabians AI Component</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AGP\Fabians AI Component\NegateNode.h">
       <Filter>Source\AGP\Fabians AI Component</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\AGP\Fabians AI Component\NoGunCondition.cpp">
