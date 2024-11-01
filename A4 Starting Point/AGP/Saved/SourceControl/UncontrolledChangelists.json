@@ -10,7 +10,10 @@
 				"C:/Users/byrne/OneDrive/Desktop/Gamedev/A4-Repository/A4 Starting Point/AGP/Content/Blueprints/BP_PlayerCharacterHUD.uasset",
 				"C:/Users/byrne/OneDrive/Desktop/Gamedev/A4-Repository/A4 Starting Point/AGP/Content/Blueprints/GameManagers/BP_MultiplayerGameMode.uasset",
 				"C:/Users/byrne/OneDrive/Desktop/Gamedev/A4-Repository/A4 Starting Point/AGP/Content/Blueprints/BP_CoverSpawner.uasset",
-				"C:/Users/byrne/OneDrive/Desktop/Gamedev/A4-Repository/A4 Starting Point/AGP/Content/Blueprints/Time.uasset"
+				"C:/Users/byrne/OneDrive/Desktop/Gamedev/A4-Repository/A4 Starting Point/AGP/Content/Blueprints/Time.uasset",
+				"C:/Users/byrne/OneDrive/Desktop/Gamedev/A4-Repository/A4 Starting Point/AGP/Content/Blueprints/BP_PlayerCharacter.uasset",
+				"C:/Users/byrne/OneDrive/Desktop/Gamedev/A4-Repository/A4 Starting Point/AGP/Content/Blueprints/Ui/BP_PlayerCharacterHUD.uasset",
+				"C:/Users/byrne/OneDrive/Desktop/Gamedev/A4-Repository/A4 Starting Point/AGP/Content/Blueprints/Ui/Time.uasset"
 			]
 		}
 	]
