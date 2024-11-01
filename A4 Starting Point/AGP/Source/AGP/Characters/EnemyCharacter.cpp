@@ -223,7 +223,6 @@ void AEnemyCharacter::TickPatrol()
 
 void AEnemyCharacter::TickEngage()
 {
-	
 	if (!SensedCharacter) return;
 	
 	if (CurrentPath.IsEmpty())
@@ -241,6 +240,8 @@ void AEnemyCharacter::TickEngage()
 	}
 }
 
+
+
 void AEnemyCharacter::TickEvade()
 {
 	// Find the player and return if it can't find it.
@@ -252,6 +253,15 @@ void AEnemyCharacter::TickEvade()
 	}
 	MoveAlongPath();
 }
+
+void AEnemyCharacter::TickFindWeapon()                                    
+{                                                                         
+    TArray<FVector> Array = PickupManagerSubsystem->WeaponSpawns;         
+    for (const FVector& WeaponSpawn : Array)                              
+    {                                                                     
+        PathfindingSubsystem->FindNearestNode(WeaponSpawn);               
+    }                                                                     
+}    
 
 void AEnemyCharacter::OnSensedPawn(APawn* SensedActor)
 {
