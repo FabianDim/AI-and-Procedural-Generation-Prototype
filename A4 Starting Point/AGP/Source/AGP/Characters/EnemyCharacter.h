@@ -7,6 +7,7 @@
 #include "AGP/Fabians AI Component/FabiansBehaviourTree.h"
 #include "BaseCharacter.h"
 #include "PlayerCharacter.h"
+#include "AGP/Pickups/PickupManagerSubsystem.h"
 #include "EnemyCharacter.generated.h"
 
 // Forward declarations to avoid needing to #include files in the header of this class.
@@ -65,6 +66,8 @@ protected:
 	 * Logic that controls the enemy character when in the Evade state.
 	 */
 	void TickEvade();
+
+	void TickFindWeapon();
 
 	/**
 	 * A function bound to the UPawnSensingComponent's OnSeePawn event. This will set the SensedCharacter variable
@@ -136,4 +139,7 @@ private:
 	UPlayerDetectedCondition* PlayerDetectedCondition;
 	UPROPERTY()
 	UPlayerNotDetectedCondition* PlayerNotDetectedCondition;
+
+	UPROPERTY()
+	UPickupManagerSubsystem* PickupManagerSubsystem;
 };

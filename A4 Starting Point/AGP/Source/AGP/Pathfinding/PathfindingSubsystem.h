@@ -14,7 +14,7 @@ UCLASS()
 class AGP_API UPathfindingSubsystem : public UWorldSubsystem
 {
 	GENERATED_BODY()
-
+friend class AEnemyCharacter;
 public:
 
 	virtual void OnWorldBeginPlay(UWorld& InWorld) override;

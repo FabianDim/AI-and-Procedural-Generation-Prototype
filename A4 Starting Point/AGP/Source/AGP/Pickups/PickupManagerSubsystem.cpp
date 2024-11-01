@@ -50,7 +50,7 @@ void UPickupManagerSubsystem::SpawnWeaponPickup()
 		SpawnPosition.Z += 50.0f;
 		GetWorld()->SpawnActor<AWeaponPickup>(
 			GameInstance->GetWeaponPickupClass(), SpawnPosition, FRotator::ZeroRotator);
-
+		WeaponSpawns.Push(SpawnPosition);
 		//UE_LOG(LogTemp, Display, TEXT("Weapon Pickup Spawned"))
 	}
 }

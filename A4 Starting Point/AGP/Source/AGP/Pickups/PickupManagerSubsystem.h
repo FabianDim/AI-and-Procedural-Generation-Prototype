@@ -21,6 +21,8 @@ public:
 		return TStatId();
 	}
 
+	TArray<FVector> WeaponSpawns;
+
 protected:
 	
 	/**
