@@ -207,19 +207,19 @@ void EmptyLinkFunctionForGeneratedCodeWeaponPickup() {}
 	AWeaponPickup::AWeaponPickup() {}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AWeaponPickup);
 	AWeaponPickup::~AWeaponPickup() {}
-	struct Z_CompiledInDeferFile_FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Pickups_WeaponPickup_h_Statics
+	struct Z_CompiledInDeferFile_FID_AGP_Source_AGP_Pickups_WeaponPickup_h_Statics
 	{
 		static const FEnumRegisterCompiledInInfo EnumInfo[];
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Pickups_WeaponPickup_h_Statics::EnumInfo[] = {
+	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AGP_Source_AGP_Pickups_WeaponPickup_h_Statics::EnumInfo[] = {
 		{ EWeaponRarity_StaticEnum, TEXT("EWeaponRarity"), &Z_Registration_Info_UEnum_EWeaponRarity, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2441037178U) },
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Pickups_WeaponPickup_h_Statics::ClassInfo[] = {
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AGP_Source_AGP_Pickups_WeaponPickup_h_Statics::ClassInfo[] = {
 		{ Z_Construct_UClass_AWeaponPickup, AWeaponPickup::StaticClass, TEXT("AWeaponPickup"), &Z_Registration_Info_UClass_AWeaponPickup, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AWeaponPickup), 1603407357U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Pickups_WeaponPickup_h_603635718(TEXT("/Script/AGP"),
-		Z_CompiledInDeferFile_FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Pickups_WeaponPickup_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Pickups_WeaponPickup_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AGP_Source_AGP_Pickups_WeaponPickup_h_603635718(TEXT("/Script/AGP"),
+		Z_CompiledInDeferFile_FID_AGP_Source_AGP_Pickups_WeaponPickup_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AGP_Source_AGP_Pickups_WeaponPickup_h_Statics::ClassInfo),
 		nullptr, 0,
-		Z_CompiledInDeferFile_FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Pickups_WeaponPickup_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Pickups_WeaponPickup_h_Statics::EnumInfo));
+		Z_CompiledInDeferFile_FID_AGP_Source_AGP_Pickups_WeaponPickup_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AGP_Source_AGP_Pickups_WeaponPickup_h_Statics::EnumInfo));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
