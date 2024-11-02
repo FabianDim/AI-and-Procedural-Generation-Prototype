@@ -40,11 +40,14 @@ class AGP_API AEnemyCharacter : public ABaseCharacter
 	friend class UPlayerNotDetectedCondition;
 	friend class UEvadeAction;
 	friend class UHealthCondition;
+	friend class MultiplayerGameMode;
 public:
 	// Sets default values for this character's properties
 	AEnemyCharacter();
 	void GetTickPatrol();
 	void GetTickEngage();
+	void OnDeath();
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

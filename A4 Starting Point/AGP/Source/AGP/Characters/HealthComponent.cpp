@@ -3,6 +3,7 @@
 
 #include "HealthComponent.h"
 
+#include "EnemyCharacter.h"
 #include "PlayerCharacter.h"
 #include "Net/UnrealNetwork.h"
 
@@ -86,6 +87,10 @@ void UHealthComponent::OnDeath()
 	{
 		Character->OnDeath();
 	}
+	/*else if(AEnemyCharacter* EnemyCharacter = Cast<AEnemyCharacter>(GetOwner()))
+	{
+		EnemyCharacter->OnDeath();
+	}*/
 }
 
 void UHealthComponent::UpdateHealthBar()

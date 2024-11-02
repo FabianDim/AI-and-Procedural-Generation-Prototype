@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Characters/EnemyCharacter.h"
 #include "GameFramework/GameMode.h"
 #include "MultiplayerGameMode.generated.h"
 
@@ -18,6 +19,8 @@ class AGP_API AMultiplayerGameMode : public AGameMode
 public:
 
 	void RespawnPlayer(AController* Controller);
+	void RespawnNPC(AEnemyCharacter* DeadEnemy);
+	void SpawnNPCAtLocation(TSubclassOf<AEnemyCharacter> NPCClass, FVector SpawnLocation, FRotator SpawnRotation);
 
 protected:
 
