@@ -22,6 +22,8 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Cover")
 	bool bIsOccupied = false;
 
+	
+
 private:
 	void DrawDebugCoverNode();
 };

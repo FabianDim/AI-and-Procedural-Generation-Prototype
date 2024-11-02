@@ -1,11 +1,12 @@
-C:\Users\byrne\OneDrive\Desktop\Gamedev\A4-Repository\A4 Starting Point\AGP\Source\AGP\AGPGameInstance.h
 C:\Users\byrne\OneDrive\Desktop\Gamedev\A4-Repository\A4 Starting Point\AGP\Source\AGP\AGPGameModeBase.h
+C:\Users\byrne\OneDrive\Desktop\Gamedev\A4-Repository\A4 Starting Point\AGP\Source\AGP\AGPGameInstance.h
+C:\Users\byrne\OneDrive\Desktop\Gamedev\A4-Repository\A4 Starting Point\AGP\Source\AGP\MultiplayerGameMode.h
 C:\Users\byrne\OneDrive\Desktop\Gamedev\A4-Repository\A4 Starting Point\AGP\Source\AGP\PickupBounceComponent.h
 C:\Users\byrne\OneDrive\Desktop\Gamedev\A4-Repository\A4 Starting Point\AGP\Source\AGP\PickupRotatorComponent.h
+C:\Users\byrne\OneDrive\Desktop\Gamedev\A4-Repository\A4 Starting Point\AGP\Source\AGP\Characters\EnemyCharacter.h
 C:\Users\byrne\OneDrive\Desktop\Gamedev\A4-Repository\A4 Starting Point\AGP\Source\AGP\Characters\BaseCharacter.h
+C:\Users\byrne\OneDrive\Desktop\Gamedev\A4-Repository\A4 Starting Point\AGP\Source\AGP\Characters\HealthComponent.h
 C:\Users\byrne\OneDrive\Desktop\Gamedev\A4-Repository\A4 Starting Point\AGP\Source\AGP\Characters\PlayerCharacter.h
-C:\Users\byrne\OneDrive\Desktop\Gamedev\A4-Repository\A4 Starting Point\AGP\Source\AGP\Characters\PlayerCharacterHUD.h
-C:\Users\byrne\OneDrive\Desktop\Gamedev\A4-Repository\A4 Starting Point\AGP\Source\AGP\Characters\WeaponComponent.h
 C:\Users\byrne\OneDrive\Desktop\Gamedev\A4-Repository\A4 Starting Point\AGP\Source\AGP\Fabians AI Component\EvadeAction.h
 C:\Users\byrne\OneDrive\Desktop\Gamedev\A4-Repository\A4 Starting Point\AGP\Source\AGP\Fabians AI Component\FabiansActiveSelector.h
 C:\Users\byrne\OneDrive\Desktop\Gamedev\A4-Repository\A4 Starting Point\AGP\Source\AGP\Fabians AI Component\FabiansBehaviourTree.h
@@ -15,9 +16,9 @@ C:\Users\byrne\OneDrive\Desktop\Gamedev\A4-Repository\A4 Starting Point\AGP\Sour
 C:\Users\byrne\OneDrive\Desktop\Gamedev\A4-Repository\A4 Starting Point\AGP\Source\AGP\Fabians AI Component\HealthCondition.h
 C:\Users\byrne\OneDrive\Desktop\Gamedev\A4-Repository\A4 Starting Point\AGP\Source\AGP\Fabians AI Component\MoveToPlayerAction.h
 C:\Users\byrne\OneDrive\Desktop\Gamedev\A4-Repository\A4 Starting Point\AGP\Source\AGP\Fabians AI Component\NegateNode.h
+C:\Users\byrne\OneDrive\Desktop\Gamedev\A4-Repository\A4 Starting Point\AGP\Source\AGP\Fabians AI Component\NoGunCondition.h
 C:\Users\byrne\OneDrive\Desktop\Gamedev\A4-Repository\A4 Starting Point\AGP\Source\AGP\Fabians AI Component\PatrolAction.h
 C:\Users\byrne\OneDrive\Desktop\Gamedev\A4-Repository\A4 Starting Point\AGP\Source\AGP\Fabians AI Component\PlayerDetectedCondition.h
-C:\Users\byrne\OneDrive\Desktop\Gamedev\A4-Repository\A4 Starting Point\AGP\Source\AGP\Fabians AI Component\NoGunCondition.h
 C:\Users\byrne\OneDrive\Desktop\Gamedev\A4-Repository\A4 Starting Point\AGP\Source\AGP\Fabians AI Component\UShootAction.h
 C:\Users\byrne\OneDrive\Desktop\Gamedev\A4-Repository\A4 Starting Point\AGP\Source\AGP\Fabians AI Component\Unused Classes\FabiansDecorator.h
 C:\Users\byrne\OneDrive\Desktop\Gamedev\A4-Repository\A4 Starting Point\AGP\Source\AGP\Fabians AI Component\Unused Classes\FabiansParallel.h
@@ -30,6 +31,5 @@ C:\Users\byrne\OneDrive\Desktop\Gamedev\A4-Repository\A4 Starting Point\AGP\Sour
 C:\Users\byrne\OneDrive\Desktop\Gamedev\A4-Repository\A4 Starting Point\AGP\Source\AGP\Pickups\PickupBase.h
 C:\Users\byrne\OneDrive\Desktop\Gamedev\A4-Repository\A4 Starting Point\AGP\Source\AGP\Pickups\PickupManagerSubsystem.h
 C:\Users\byrne\OneDrive\Desktop\Gamedev\A4-Repository\A4 Starting Point\AGP\Source\AGP\Pickups\WeaponPickup.h
-C:\Users\byrne\OneDrive\Desktop\Gamedev\A4-Repository\A4 Starting Point\AGP\Source\AGP\MultiplayerGameMode.h
-C:\Users\byrne\OneDrive\Desktop\Gamedev\A4-Repository\A4 Starting Point\AGP\Source\AGP\Characters\HealthComponent.h
-C:\Users\byrne\OneDrive\Desktop\Gamedev\A4-Repository\A4 Starting Point\AGP\Source\AGP\Characters\EnemyCharacter.h
+C:\Users\byrne\OneDrive\Desktop\Gamedev\A4-Repository\A4 Starting Point\AGP\Source\AGP\Characters\PlayerCharacterHUD.h
+C:\Users\byrne\OneDrive\Desktop\Gamedev\A4-Repository\A4 Starting Point\AGP\Source\AGP\Characters\WeaponComponent.h

@@ -14,7 +14,7 @@ void UCoverNodeComponent::BeginPlay()
 void UCoverNodeComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
-	DrawDebugCoverNode();
+	//DrawDebugCoverNode();//
 }
 
 void UCoverNodeComponent::DrawDebugCoverNode()
