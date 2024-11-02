@@ -133,6 +133,20 @@ ANavigationNode* UPathfindingSubsystem::GetRandomNode()
 	return Nodes[RandIndex];
 }
 
+ANavigationNode* UPathfindingSubsystem::MinDistNode(ANavigationNode* FirstNode, ANavigationNode* SecondNode, const FVector& ActorLocation)
+{
+	if(!FirstNode || !SecondNode)
+	{
+		return nullptr;
+	}
+
+	float distance1 = FMath::Abs(FVector::Dist(FirstNode->GetActorLocation(), ActorLocation));
+	float distance2 = FMath::Abs(FVector::Dist(FirstNode->GetActorLocation(), ActorLocation));
+
+	return distance1 < distance2 ? FirstNode : SecondNode;
+}
+
+
 ANavigationNode* UPathfindingSubsystem::FindNearestNode(const FVector& TargetLocation)
 {
 	// Failure condition.

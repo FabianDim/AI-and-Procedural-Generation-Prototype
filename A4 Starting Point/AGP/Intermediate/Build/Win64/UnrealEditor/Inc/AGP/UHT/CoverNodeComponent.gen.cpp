@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "AGP/CoverNodeComponent.h"
+#include "AGP/Jays_Cover_Component/CoverNodeComponent.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeCoverNodeComponent() {}
 // Cross Module References
@@ -46,15 +46,15 @@ void EmptyLinkFunctionForGeneratedCodeCoverNodeComponent() {}
 		{ "BlueprintSpawnableComponent", "" },
 		{ "ClassGroupNames", "Custom" },
 		{ "HideCategories", "Trigger PhysicsVolume" },
-		{ "IncludePath", "CoverNodeComponent.h" },
-		{ "ModuleRelativePath", "CoverNodeComponent.h" },
+		{ "IncludePath", "Jays_Cover_Component/CoverNodeComponent.h" },
+		{ "ModuleRelativePath", "Jays_Cover_Component/CoverNodeComponent.h" },
 	};
 #endif
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UCoverNodeComponent_Statics::NewProp_bIsOccupied_MetaData[] = {
 		{ "Category", "Cover" },
 		{ "Comment", "// Whether the cover is occupied or available\n" },
-		{ "ModuleRelativePath", "CoverNodeComponent.h" },
+		{ "ModuleRelativePath", "Jays_Cover_Component/CoverNodeComponent.h" },
 		{ "ToolTip", "Whether the cover is occupied or available" },
 	};
 #endif
@@ -98,15 +98,15 @@ void EmptyLinkFunctionForGeneratedCodeCoverNodeComponent() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(UCoverNodeComponent);
 	UCoverNodeComponent::~UCoverNodeComponent() {}
-	struct Z_CompiledInDeferFile_FID_AGP_Source_AGP_CoverNodeComponent_h_Statics
+	struct Z_CompiledInDeferFile_FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Jays_Cover_Component_CoverNodeComponent_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AGP_Source_AGP_CoverNodeComponent_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UCoverNodeComponent, UCoverNodeComponent::StaticClass, TEXT("UCoverNodeComponent"), &Z_Registration_Info_UClass_UCoverNodeComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UCoverNodeComponent), 1473466157U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Jays_Cover_Component_CoverNodeComponent_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_UCoverNodeComponent, UCoverNodeComponent::StaticClass, TEXT("UCoverNodeComponent"), &Z_Registration_Info_UClass_UCoverNodeComponent, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UCoverNodeComponent), 703420797U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AGP_Source_AGP_CoverNodeComponent_h_236831120(TEXT("/Script/AGP"),
-		Z_CompiledInDeferFile_FID_AGP_Source_AGP_CoverNodeComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AGP_Source_AGP_CoverNodeComponent_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Jays_Cover_Component_CoverNodeComponent_h_3419590204(TEXT("/Script/AGP"),
+		Z_CompiledInDeferFile_FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Jays_Cover_Component_CoverNodeComponent_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Jays_Cover_Component_CoverNodeComponent_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

@@ -40,7 +40,7 @@ void AEnemyCharacter::GetTickEngage()
 void AEnemyCharacter::BeginPlay()
 {
 	Super::BeginPlay();
-
+	PickupManagerSubsystem = GetWorld()->GetSubsystem<UPickupManagerSubsystem>();
 	// DO NOTHING IF NOT ON THE SERVER
 	if (GetLocalRole() != ROLE_Authority) return;
 	
@@ -254,14 +254,57 @@ void AEnemyCharacter::TickEvade()
 	MoveAlongPath();
 }
 
-void AEnemyCharacter::TickFindWeapon()                                    
-{                                                                         
-    TArray<FVector> Array = PickupManagerSubsystem->WeaponSpawns;         
-    for (const FVector& WeaponSpawn : Array)                              
-    {                                                                     
-        PathfindingSubsystem->FindNearestNode(WeaponSpawn);               
-    }                                                                     
-}    
+void AEnemyCharacter::TickFindWeapon()
+{
+    // Log each condition separately to verify where it might be exiting.
+
+    if (!PickupManagerSubsystem)
+    {
+        UE_LOG(LogTemp, Warning, TEXT("PickupManagerSubsystem is null, exiting TickFindWeapon"));
+        return;
+    }
+
+    if (!PathfindingSubsystem)
+    {
+        UE_LOG(LogTemp, Warning, TEXT("PathfindingSubsystem is null, exiting TickFindWeapon"));
+        return;
+    }
+
+    if (PickupManagerSubsystem->WeaponSpawns.Num() == 0)
+    {
+        UE_LOG(LogTemp, Warning, TEXT("No WeaponSpawns found, exiting TickFindWeapon"));
+        return;
+    }
+
+    ANavigationNode* NearestNode = nullptr;
+    UE_LOG(LogTemp, Display, TEXT("Starting search for nearest weapon spawn node"));
+
+    for (const FVector& WeaponSpawn : PickupManagerSubsystem->WeaponSpawns)
+    {
+        if (WeaponSpawn == FVector::ZeroVector)
+        {
+            UE_LOG(LogTemp, Warning, TEXT("Skipping uninitialized WeaponSpawn"));
+            continue;
+        }
+
+        ANavigationNode* Node = PathfindingSubsystem->FindNearestNode(WeaponSpawn);
+        if (Node)
+        {
+            NearestNode = PathfindingSubsystem->MinDistNode(NearestNode, Node, GetActorLocation());
+            UE_LOG(LogTemp, Display, TEXT("Updating NearestNode to a closer node"));
+        }
+        else
+        {
+            UE_LOG(LogTemp, Warning, TEXT("FindNearestNode returned nullptr for WeaponSpawn at %s"), *WeaponSpawn.ToString());
+        }
+    }
+    if (CurrentPath.IsEmpty())
+    {
+        CurrentPath = PathfindingSubsystem->GetPath(PathfindingSubsystem->FindNearestNode(GetActorLocation()), NearestNode);
+        UE_LOG(LogTemp, Display, TEXT("CurrentPath updated with path to nearest weapon node"));
+    }
+    MoveAlongPath();
+}
 
 void AEnemyCharacter::OnSensedPawn(APawn* SensedActor)
 {
