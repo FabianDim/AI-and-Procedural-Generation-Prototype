@@ -68,6 +68,7 @@ private:
 	void PopulateNodes();
 	void RemoveAllNodes();
 	ANavigationNode* GetRandomNode();
+	ANavigationNode* MinDistNode(ANavigationNode* FirstNode, ANavigationNode* SecondNode, const FVector& ActorLocation);
 	ANavigationNode* FindNearestNode(const FVector& TargetLocation);
 	ANavigationNode* FindFurthestNode(const FVector& TargetLocation);
 	TArray<FVector> GetPath(ANavigationNode* StartNode, ANavigationNode* EndNode);
