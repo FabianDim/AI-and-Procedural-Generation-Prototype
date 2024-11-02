@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "AGP/CoverNode.h"
+#include "AGP/Jays_Cover_Component/CoverNode.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeCoverNode() {}
 // Cross Module References
@@ -64,7 +64,7 @@ void EmptyLinkFunctionForGeneratedCodeCoverNode() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ACoverNode_IsAvailableForCover_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Cover" },
 		{ "Comment", "// Function to check if the node is available for cover\n" },
-		{ "ModuleRelativePath", "CoverNode.h" },
+		{ "ModuleRelativePath", "Jays_Cover_Component/CoverNode.h" },
 		{ "ToolTip", "Function to check if the node is available for cover" },
 	};
 #endif
@@ -104,7 +104,7 @@ void EmptyLinkFunctionForGeneratedCodeCoverNode() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ACoverNode_SetOccupied_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Cover" },
 		{ "Comment", "// Function to mark the node as occupied or free\n" },
-		{ "ModuleRelativePath", "CoverNode.h" },
+		{ "ModuleRelativePath", "Jays_Cover_Component/CoverNode.h" },
 		{ "ToolTip", "Function to mark the node as occupied or free" },
 	};
 #endif
@@ -144,20 +144,20 @@ void EmptyLinkFunctionForGeneratedCodeCoverNode() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_AGP,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_ACoverNode_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_ACoverNode_IsAvailableForCover, "IsAvailableForCover" }, // 1980041179
-		{ &Z_Construct_UFunction_ACoverNode_SetOccupied, "SetOccupied" }, // 1982027245
+		{ &Z_Construct_UFunction_ACoverNode_IsAvailableForCover, "IsAvailableForCover" }, // 3175231978
+		{ &Z_Construct_UFunction_ACoverNode_SetOccupied, "SetOccupied" }, // 1406709461
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACoverNode_Statics::Class_MetaDataParams[] = {
-		{ "IncludePath", "CoverNode.h" },
-		{ "ModuleRelativePath", "CoverNode.h" },
+		{ "IncludePath", "Jays_Cover_Component/CoverNode.h" },
+		{ "ModuleRelativePath", "Jays_Cover_Component/CoverNode.h" },
 	};
 #endif
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACoverNode_Statics::NewProp_bIsOccupied_MetaData[] = {
 		{ "Category", "Cover" },
 		{ "Comment", "// Tracks if this cover node is occupied by an AI character\n" },
-		{ "ModuleRelativePath", "CoverNode.h" },
+		{ "ModuleRelativePath", "Jays_Cover_Component/CoverNode.h" },
 		{ "ToolTip", "Tracks if this cover node is occupied by an AI character" },
 	};
 #endif
@@ -201,15 +201,15 @@ void EmptyLinkFunctionForGeneratedCodeCoverNode() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ACoverNode);
 	ACoverNode::~ACoverNode() {}
-	struct Z_CompiledInDeferFile_FID_AGP_Source_AGP_CoverNode_h_Statics
+	struct Z_CompiledInDeferFile_FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Jays_Cover_Component_CoverNode_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AGP_Source_AGP_CoverNode_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ACoverNode, ACoverNode::StaticClass, TEXT("ACoverNode"), &Z_Registration_Info_UClass_ACoverNode, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ACoverNode), 4146912058U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Jays_Cover_Component_CoverNode_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_ACoverNode, ACoverNode::StaticClass, TEXT("ACoverNode"), &Z_Registration_Info_UClass_ACoverNode, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ACoverNode), 336239896U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AGP_Source_AGP_CoverNode_h_1532465047(TEXT("/Script/AGP"),
-		Z_CompiledInDeferFile_FID_AGP_Source_AGP_CoverNode_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AGP_Source_AGP_CoverNode_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Jays_Cover_Component_CoverNode_h_4167413923(TEXT("/Script/AGP"),
+		Z_CompiledInDeferFile_FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Jays_Cover_Component_CoverNode_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Jays_Cover_Component_CoverNode_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

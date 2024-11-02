@@ -5,7 +5,7 @@
 ===========================================================================*/
 
 #include "UObject/GeneratedCppIncludes.h"
-#include "AGP/CoverSpawner.h"
+#include "AGP/Jays_Cover_Component/CoverSpawner.h"
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeCoverSpawner() {}
 // Cross Module References
@@ -43,7 +43,7 @@ void EmptyLinkFunctionForGeneratedCodeCoverSpawner() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ACoverSpawner_SpawnRandomCover_Statics::Function_MetaDataParams[] = {
 		{ "Category", "Cover" },
 		{ "Comment", "// Function to spawn cover at random locations\n" },
-		{ "ModuleRelativePath", "CoverSpawner.h" },
+		{ "ModuleRelativePath", "Jays_Cover_Component/CoverSpawner.h" },
 		{ "ToolTip", "Function to spawn cover at random locations" },
 	};
 #endif
@@ -98,19 +98,19 @@ void EmptyLinkFunctionForGeneratedCodeCoverSpawner() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_AGP,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_ACoverSpawner_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_ACoverSpawner_SpawnRandomCover, "SpawnRandomCover" }, // 21798264
+		{ &Z_Construct_UFunction_ACoverSpawner_SpawnRandomCover, "SpawnRandomCover" }, // 3195441358
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACoverSpawner_Statics::Class_MetaDataParams[] = {
-		{ "IncludePath", "CoverSpawner.h" },
-		{ "ModuleRelativePath", "CoverSpawner.h" },
+		{ "IncludePath", "Jays_Cover_Component/CoverSpawner.h" },
+		{ "ModuleRelativePath", "Jays_Cover_Component/CoverSpawner.h" },
 	};
 #endif
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACoverSpawner_Statics::NewProp_CoverActorClass_MetaData[] = {
 		{ "Category", "Cover" },
 		{ "Comment", "// Reference to the cover actor class to spawn\n" },
-		{ "ModuleRelativePath", "CoverSpawner.h" },
+		{ "ModuleRelativePath", "Jays_Cover_Component/CoverSpawner.h" },
 		{ "ToolTip", "Reference to the cover actor class to spawn" },
 	};
 #endif
@@ -119,7 +119,7 @@ void EmptyLinkFunctionForGeneratedCodeCoverSpawner() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACoverSpawner_Statics::NewProp_NumCoverPieces_MetaData[] = {
 		{ "Category", "Cover" },
 		{ "Comment", "// Number of cover pieces to spawn\n" },
-		{ "ModuleRelativePath", "CoverSpawner.h" },
+		{ "ModuleRelativePath", "Jays_Cover_Component/CoverSpawner.h" },
 		{ "ToolTip", "Number of cover pieces to spawn" },
 	};
 #endif
@@ -128,7 +128,7 @@ void EmptyLinkFunctionForGeneratedCodeCoverSpawner() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACoverSpawner_Statics::NewProp_SpawnAreaMin_MetaData[] = {
 		{ "Category", "Cover" },
 		{ "Comment", "// Boundaries for random cover spawn locations\n" },
-		{ "ModuleRelativePath", "CoverSpawner.h" },
+		{ "ModuleRelativePath", "Jays_Cover_Component/CoverSpawner.h" },
 		{ "ToolTip", "Boundaries for random cover spawn locations" },
 	};
 #endif
@@ -136,7 +136,7 @@ void EmptyLinkFunctionForGeneratedCodeCoverSpawner() {}
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACoverSpawner_Statics::NewProp_SpawnAreaMax_MetaData[] = {
 		{ "Category", "Cover" },
-		{ "ModuleRelativePath", "CoverSpawner.h" },
+		{ "ModuleRelativePath", "Jays_Cover_Component/CoverSpawner.h" },
 	};
 #endif
 	const UECodeGen_Private::FStructPropertyParams Z_Construct_UClass_ACoverSpawner_Statics::NewProp_SpawnAreaMax = { "SpawnAreaMax", nullptr, (EPropertyFlags)0x0010000000000001, UECodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(ACoverSpawner, SpawnAreaMax), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_ACoverSpawner_Statics::NewProp_SpawnAreaMax_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ACoverSpawner_Statics::NewProp_SpawnAreaMax_MetaData)) };
@@ -144,7 +144,7 @@ void EmptyLinkFunctionForGeneratedCodeCoverSpawner() {}
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ACoverSpawner_Statics::NewProp_MinDistanceBetweenCoverPieces_MetaData[] = {
 		{ "Category", "Cover" },
 		{ "Comment", "// Minimum distance between cover pieces to avoid overlap\n" },
-		{ "ModuleRelativePath", "CoverSpawner.h" },
+		{ "ModuleRelativePath", "Jays_Cover_Component/CoverSpawner.h" },
 		{ "ToolTip", "Minimum distance between cover pieces to avoid overlap" },
 	};
 #endif
@@ -188,15 +188,15 @@ void EmptyLinkFunctionForGeneratedCodeCoverSpawner() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ACoverSpawner);
 	ACoverSpawner::~ACoverSpawner() {}
-	struct Z_CompiledInDeferFile_FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_CoverSpawner_h_Statics
+	struct Z_CompiledInDeferFile_FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Jays_Cover_Component_CoverSpawner_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_CoverSpawner_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_ACoverSpawner, ACoverSpawner::StaticClass, TEXT("ACoverSpawner"), &Z_Registration_Info_UClass_ACoverSpawner, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ACoverSpawner), 3740456758U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Jays_Cover_Component_CoverSpawner_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_ACoverSpawner, ACoverSpawner::StaticClass, TEXT("ACoverSpawner"), &Z_Registration_Info_UClass_ACoverSpawner, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(ACoverSpawner), 1498569174U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_CoverSpawner_h_2515740706(TEXT("/Script/AGP"),
-		Z_CompiledInDeferFile_FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_CoverSpawner_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_CoverSpawner_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Jays_Cover_Component_CoverSpawner_h_3777434630(TEXT("/Script/AGP"),
+		Z_CompiledInDeferFile_FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Jays_Cover_Component_CoverSpawner_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Jays_Cover_Component_CoverSpawner_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
