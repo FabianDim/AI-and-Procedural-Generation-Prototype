@@ -94,15 +94,15 @@ void EmptyLinkFunctionForGeneratedCodeMultiplayerGameMode() {}
 	AMultiplayerGameMode::AMultiplayerGameMode(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AMultiplayerGameMode);
 	AMultiplayerGameMode::~AMultiplayerGameMode() {}
-	struct Z_CompiledInDeferFile_FID_AGP_Source_AGP_MultiplayerGameMode_h_Statics
+	struct Z_CompiledInDeferFile_FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_MultiplayerGameMode_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AGP_Source_AGP_MultiplayerGameMode_h_Statics::ClassInfo[] = {
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_MultiplayerGameMode_h_Statics::ClassInfo[] = {
 		{ Z_Construct_UClass_AMultiplayerGameMode, AMultiplayerGameMode::StaticClass, TEXT("AMultiplayerGameMode"), &Z_Registration_Info_UClass_AMultiplayerGameMode, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMultiplayerGameMode), 216408129U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AGP_Source_AGP_MultiplayerGameMode_h_1771877802(TEXT("/Script/AGP"),
-		Z_CompiledInDeferFile_FID_AGP_Source_AGP_MultiplayerGameMode_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AGP_Source_AGP_MultiplayerGameMode_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_MultiplayerGameMode_h_1771877802(TEXT("/Script/AGP"),
+		Z_CompiledInDeferFile_FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_MultiplayerGameMode_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_MultiplayerGameMode_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
