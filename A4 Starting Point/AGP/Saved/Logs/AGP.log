@@ -4646,3 +4646,1633 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.11.02-06.27.04:045][549]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
 [2024.11.02-06.27.04:045][549]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
 [2024.11.02-06.27.04:061][551]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2024.11.02-06.27.23:878][892]LogDerivedDataCache: C:/Users/byrne/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:04.260 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 2854 files in 4271 folders with total size 294 MiB.
+[2024.11.02-06.27.28:106][220]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.11.02-06.27.28:107][220]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.11.02-06.27.28:107][220]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.11.02-06.27.28:107][220]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.11.02-06.27.28:108][220]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.11.02-06.27.28:108][220]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.11.02-06.27.28:108][220]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.11.02-06.27.28:109][220]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.11.02-06.27.28:109][220]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.11.02-06.27.28:226][222]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.02-06.27.32:628][681]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.11.02-06.27.32:628][681]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.11.02-06.27.32:629][681]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.11.02-06.27.32:629][681]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.11.02-06.27.32:629][681]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.11.02-06.27.32:630][681]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.11.02-06.27.32:690][682]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.02-06.27.32:705][682]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.11.02-06.27.39:260][442]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.02-06.27.39:285][443]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.02-06.27.39:298][443]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	AnimBP_FPArms_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.AnimBP_FPArms_C_0
+	Function /Game/Blueprints/AnimBP_FPArms.AnimBP_FPArms_C:ExecuteUbergraph_AnimBP_FPArms:0220
+[2024.11.02-06.27.40:311][558]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Cube_Blueprint.Cube_Blueprint
+[2024.11.02-06.27.40:311][558]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.02-06.27.40:311][558]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.02-06.27.41:463][558]LogSlate: Took 0.031897 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2024.11.02-06.27.41:465][558]LogSlate: Took 0.000175 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2024.11.02-06.27.44:547][751]LogViewport: Scene viewport resized to 1141x685, mode Windowed.
+[2024.11.02-06.28.21:729][552]BlueprintLog: New page: Compile Cube_Blueprint
+[2024.11.02-06.28.21:792][552]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2024.11.02-06.28.21:818][552]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.11.02-06.28.21:819][552]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.11.02-06.28.21:820][552]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.11.02-06.28.21:820][552]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.11.02-06.28.21:821][552]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.11.02-06.28.21:821][552]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.11.02-06.28.22:314][587]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.02-06.28.22:348][587]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.02-06.28.22:361][587]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Cube_Blueprint" FILE="C:/Users/byrne/OneDrive/Desktop/Gamedev/A4-Repository/A4 Starting Point/AGP/Content/Blueprints/Cube_Blueprint.uasset" SILENT=true
+[2024.11.02-06.28.22:380][587]LogPackageLocalizationCache: Processed 44 localized package path(s) for 1 prioritized culture(s) in 0.018935 seconds
+[2024.11.02-06.28.22:393][587]LogSerialization: UsePackageTrailer: 'true'
+[2024.11.02-06.28.22:395][587]LogSavePackage: Moving output files for package: /Game/Blueprints/Cube_Blueprint
+[2024.11.02-06.28.22:396][587]LogSavePackage: Moving 'C:/Users/byrne/OneDrive/Desktop/Gamedev/A4-Repository/A4 Starting Point/AGP/Saved/Cube_Blueprint80F461FA46FC179B63FF84955CE0E9BE.tmp' to 'C:/Users/byrne/OneDrive/Desktop/Gamedev/A4-Repository/A4 Starting Point/AGP/Content/Blueprints/Cube_Blueprint.uasset'
+[2024.11.02-06.28.22:404][587]LogFileHelpers: InternalPromptForCheckoutAndSave took 90 ms
+[2024.11.02-06.28.22:409][587]AssetCheck: New page: Asset Save: Cube_Blueprint
+[2024.11.02-06.28.22:409][587]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/Cube_Blueprint.Cube_Blueprint
+[2024.11.02-06.28.25:373][855]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2024.11.02-06.28.25:381][855]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2024.11.02-06.28.25:381][855]PIE: New page: PIE session: MultiplayerMap (3 Nov 2024, 4:28:25 am)
+[2024.11.02-06.28.25:408][855]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_MultiplayerMap
+[2024.11.02-06.28.25:715][855]LogPlayLevel: PIE: StaticDuplicateObject took: (0.308003s)
+[2024.11.02-06.28.25:715][855]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/MultiplayerMap.MultiplayerMap to /Game/Levels/UEDPIE_0_MultiplayerMap.MultiplayerMap (0.308050s)
+[2024.11.02-06.28.25:715][855]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
+[2024.11.02-06.28.25:715][855]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2024.11.02-06.28.25:715][855]LogAIModule: Creating AISystem for world MultiplayerMap
+[2024.11.02-06.28.25:717][855]LogPlayLevel: PIE: World Init took: (0.000978s)
+[2024.11.02-06.28.25:738][855]LogUObjectHash: Compacting FUObjectHashTables data took   1.23ms
+[2024.11.02-06.28.25:739][855]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2024.11.02-06.28.25:739][855]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2024.11.02-06.28.25:739][855]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2024.11.02-06.28.25:739][855]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2024.11.02-06.28.25:739][855]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2024.11.02-06.28.25:739][855]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2024.11.02-06.28.25:739][855]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2024.11.02-06.28.25:739][855]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2024.11.02-06.28.25:739][855]LogAudio: Display: AudioDevice MaxSources: 32
+[2024.11.02-06.28.25:739][855]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2024.11.02-06.28.25:739][855]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2024.11.02-06.28.25:740][855]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2024.11.02-06.28.25:742][855]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2024.11.02-06.28.25:761][855]LogAudioMixer: Display: Using Audio Hardware Device Speakers (Razer Barracuda X 2.4)
+[2024.11.02-06.28.25:761][855]LogAudioMixer: Display: Initializing Sound Submixes...
+[2024.11.02-06.28.25:761][855]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2024.11.02-06.28.25:761][855]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2024.11.02-06.28.25:762][855]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2024.11.02-06.28.25:762][855]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2024.11.02-06.28.25:763][855]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2024.11.02-06.28.25:764][855]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2024.11.02-06.28.25:764][855]LogInit: FAudioDevice initialized with ID 3.
+[2024.11.02-06.28.25:764][855]LogAudio: Display: Audio Device (ID: 3) registered with world 'MultiplayerMap'.
+[2024.11.02-06.28.25:764][855]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 3
+[2024.11.02-06.28.25:767][855]LogLoad: Game class is 'BP_MultiplayerGameMode_C'
+[2024.11.02-06.28.25:772][855]LogWorld: Bringing World /Game/Levels/UEDPIE_0_MultiplayerMap.MultiplayerMap up for play (max tick rate 0) at 2024.11.02-17.28.25
+[2024.11.02-06.28.25:773][855]LogWorld: Bringing up level for play took: 0.005940
+[2024.11.02-06.28.25:775][855]LogOnline: OSS: Created online subsystem instance for: :Context_11
+[2024.11.02-06.28.25:775][855]LogTemp: Warning: Creating the UPathfindingSubsystem.
+[2024.11.02-06.28.25:775][855]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.02-06.28.25:775][855]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2024.11.02-06.28.25:775][855]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2024.11.02-06.28.25:777][855]LogTemp: Error: Adding child of type NoGunCondition to composite node
+[2024.11.02-06.28.25:777][855]LogTemp: Error: Adding child of type NoGunCondition to composite node
+[2024.11.02-06.28.25:777][855]LogTemp: Error: Adding child of type PlayerNotDetectedCondition to composite node
+[2024.11.02-06.28.25:777][855]LogTemp: Error: Adding child of type HealthCondition to composite node
+[2024.11.02-06.28.25:777][855]LogTemp: Error: Adding child of type EvadeAction to composite node
+[2024.11.02-06.28.25:777][855]LogTemp: Error: Adding child of type HasGunCondition to composite node
+[2024.11.02-06.28.25:777][855]LogTemp: Error: Adding child of type PlayerDetectedCondition to composite node
+[2024.11.02-06.28.25:777][855]LogTemp: Error: Adding child of type MoveToPlayerAction to composite node
+[2024.11.02-06.28.25:777][855]LogTemp: Error: Adding child of type FabiansSelector to composite node
+[2024.11.02-06.28.25:777][855]LogTemp: Error: Adding child of type PatrolAction to composite node
+[2024.11.02-06.28.25:777][855]LogTemp: Error: Adding child of type FabiansSequence to composite node
+[2024.11.02-06.28.25:777][855]LogTemp: Error: Adding Evade Sequence
+[2024.11.02-06.28.25:777][855]LogTemp: Error: Adding child of type FabiansSequence to composite node
+[2024.11.02-06.28.25:777][855]LogTemp: Error: Adding Engage Sequence
+[2024.11.02-06.28.25:777][855]LogTemp: Error: Adding child of type FabiansSequence to composite node
+[2024.11.02-06.28.25:777][855]LogTemp: Error: Adding Patrol Sequence
+[2024.11.02-06.28.25:777][855]LogTemp: Error: Adding child of type FabiansSelector to composite node
+[2024.11.02-06.28.25:777][855]LogTemp: Error: Adding child of type NoGunCondition to composite node
+[2024.11.02-06.28.25:777][855]LogTemp: Error: Adding child of type NoGunCondition to composite node
+[2024.11.02-06.28.25:777][855]LogTemp: Error: Adding child of type PlayerNotDetectedCondition to composite node
+[2024.11.02-06.28.25:777][855]LogTemp: Error: Adding child of type HealthCondition to composite node
+[2024.11.02-06.28.25:777][855]LogTemp: Error: Adding child of type EvadeAction to composite node
+[2024.11.02-06.28.25:777][855]LogTemp: Error: Adding child of type HasGunCondition to composite node
+[2024.11.02-06.28.25:777][855]LogTemp: Error: Adding child of type PlayerDetectedCondition to composite node
+[2024.11.02-06.28.25:777][855]LogTemp: Error: Adding child of type MoveToPlayerAction to composite node
+[2024.11.02-06.28.25:777][855]LogTemp: Error: Adding child of type FabiansSelector to composite node
+[2024.11.02-06.28.25:777][855]LogTemp: Error: Adding child of type PatrolAction to composite node
+[2024.11.02-06.28.25:778][855]LogTemp: Error: Adding child of type FabiansSequence to composite node
+[2024.11.02-06.28.25:778][855]LogTemp: Error: Adding Evade Sequence
+[2024.11.02-06.28.25:778][855]LogTemp: Error: Adding child of type FabiansSequence to composite node
+[2024.11.02-06.28.25:778][855]LogTemp: Error: Adding Engage Sequence
+[2024.11.02-06.28.25:778][855]LogTemp: Error: Adding child of type FabiansSequence to composite node
+[2024.11.02-06.28.25:778][855]LogTemp: Error: Adding Patrol Sequence
+[2024.11.02-06.28.25:778][855]LogTemp: Error: Adding child of type FabiansSelector to composite node
+[2024.11.02-06.28.25:778][855]LogTemp: Error: Adding child of type NoGunCondition to composite node
+[2024.11.02-06.28.25:778][855]LogTemp: Error: Adding child of type NoGunCondition to composite node
+[2024.11.02-06.28.25:778][855]LogTemp: Error: Adding child of type PlayerNotDetectedCondition to composite node
+[2024.11.02-06.28.25:778][855]LogTemp: Error: Adding child of type HealthCondition to composite node
+[2024.11.02-06.28.25:778][855]LogTemp: Error: Adding child of type EvadeAction to composite node
+[2024.11.02-06.28.25:778][855]LogTemp: Error: Adding child of type HasGunCondition to composite node
+[2024.11.02-06.28.25:778][855]LogTemp: Error: Adding child of type PlayerDetectedCondition to composite node
+[2024.11.02-06.28.25:778][855]LogTemp: Error: Adding child of type MoveToPlayerAction to composite node
+[2024.11.02-06.28.25:778][855]LogTemp: Error: Adding child of type FabiansSelector to composite node
+[2024.11.02-06.28.25:778][855]LogTemp: Error: Adding child of type PatrolAction to composite node
+[2024.11.02-06.28.25:778][855]LogTemp: Error: Adding child of type FabiansSequence to composite node
+[2024.11.02-06.28.25:778][855]LogTemp: Error: Adding Evade Sequence
+[2024.11.02-06.28.25:778][855]LogTemp: Error: Adding child of type FabiansSequence to composite node
+[2024.11.02-06.28.25:778][855]LogTemp: Error: Adding Engage Sequence
+[2024.11.02-06.28.25:778][855]LogTemp: Error: Adding child of type FabiansSequence to composite node
+[2024.11.02-06.28.25:778][855]LogTemp: Error: Adding Patrol Sequence
+[2024.11.02-06.28.25:778][855]LogTemp: Error: Adding child of type FabiansSelector to composite node
+[2024.11.02-06.28.25:778][855]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2024.11.02-06.28.25:778][855]PIE: Server logged in
+[2024.11.02-06.28.25:779][855]PIE: Play in editor total start time 0.398 seconds.
+[2024.11.02-06.28.25:780][855]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.25:780][855]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.25:780][855]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.25:788][855]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.11.02-06.28.25:788][855]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.11.02-06.28.25:788][855]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.11.02-06.28.25:789][855]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.11.02-06.28.25:789][855]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.11.02-06.28.25:789][855]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.11.02-06.28.25:790][855]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.11.02-06.28.25:791][855]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.11.02-06.28.25:791][855]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.11.02-06.28.25:797][856]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.25:797][856]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.25:797][856]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:264][ 17]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:264][ 17]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:264][ 17]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:271][ 18]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:271][ 18]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:271][ 18]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:282][ 19]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:282][ 19]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:282][ 19]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:290][ 20]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:290][ 20]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:290][ 20]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:299][ 21]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:299][ 21]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:299][ 21]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:307][ 22]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:307][ 22]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:307][ 22]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:315][ 23]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:315][ 23]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:315][ 23]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:329][ 24]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:329][ 24]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:329][ 24]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:339][ 25]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:339][ 25]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:339][ 25]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:348][ 26]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:348][ 26]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:348][ 26]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:358][ 27]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:358][ 27]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:358][ 27]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:367][ 28]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:367][ 28]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:367][ 28]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:377][ 29]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:377][ 29]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:377][ 29]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:387][ 30]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:387][ 30]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:387][ 30]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:397][ 31]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:397][ 31]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:397][ 31]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:407][ 32]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:407][ 32]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:407][ 32]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:417][ 33]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:417][ 33]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:417][ 33]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:426][ 34]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:426][ 34]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:426][ 34]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:435][ 35]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:435][ 35]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:435][ 35]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:444][ 36]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:444][ 36]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:444][ 36]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:453][ 37]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:453][ 37]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:453][ 37]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:461][ 38]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:461][ 38]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:461][ 38]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:470][ 39]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:470][ 39]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:470][ 39]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:478][ 40]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:478][ 40]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:478][ 40]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:485][ 41]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:485][ 41]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:485][ 41]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:495][ 42]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:495][ 42]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:495][ 42]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:502][ 43]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:503][ 43]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:503][ 43]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:512][ 44]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:512][ 44]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:512][ 44]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:519][ 45]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:519][ 45]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:519][ 45]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:529][ 46]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:529][ 46]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:529][ 46]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:537][ 47]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:537][ 47]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:537][ 47]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:545][ 48]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:545][ 48]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:545][ 48]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:554][ 49]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:554][ 49]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:554][ 49]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:561][ 50]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:562][ 50]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:562][ 50]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:570][ 51]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:570][ 51]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:570][ 51]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:579][ 52]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:579][ 52]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:579][ 52]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:587][ 53]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:587][ 53]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:587][ 53]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:595][ 54]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:595][ 54]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:595][ 54]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:604][ 55]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:604][ 55]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:604][ 55]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:612][ 56]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:612][ 56]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:612][ 56]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:620][ 57]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:620][ 57]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:620][ 57]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:629][ 58]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:629][ 58]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:629][ 58]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:637][ 59]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:637][ 59]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:637][ 59]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:645][ 60]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:645][ 60]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:645][ 60]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:653][ 61]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:653][ 61]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:653][ 61]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:662][ 62]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:662][ 62]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:662][ 62]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:670][ 63]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:670][ 63]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:670][ 63]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:679][ 64]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:679][ 64]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:679][ 64]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:687][ 65]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:688][ 65]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:688][ 65]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:696][ 66]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:696][ 66]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:696][ 66]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:705][ 67]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:705][ 67]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:705][ 67]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:712][ 68]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:713][ 68]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:713][ 68]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:720][ 69]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:720][ 69]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:720][ 69]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:729][ 70]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:729][ 70]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:729][ 70]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:737][ 71]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:737][ 71]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:737][ 71]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:745][ 72]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:745][ 72]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:745][ 72]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:755][ 73]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:755][ 73]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:755][ 73]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:762][ 74]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:762][ 74]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:762][ 74]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:771][ 75]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:771][ 75]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:771][ 75]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:779][ 76]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:779][ 76]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:779][ 76]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:787][ 77]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:787][ 77]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:787][ 77]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:795][ 78]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:795][ 78]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:795][ 78]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:804][ 79]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:804][ 79]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:804][ 79]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:812][ 80]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:812][ 80]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:812][ 80]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:821][ 81]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:821][ 81]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:821][ 81]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:829][ 82]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:829][ 82]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:829][ 82]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:838][ 83]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:838][ 83]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:838][ 83]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:846][ 84]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:846][ 84]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:846][ 84]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:854][ 85]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:854][ 85]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:854][ 85]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:863][ 86]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:863][ 86]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:863][ 86]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:872][ 87]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:872][ 87]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:872][ 87]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:879][ 88]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:880][ 88]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:880][ 88]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:888][ 89]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:889][ 89]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:889][ 89]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:897][ 90]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:897][ 90]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:897][ 90]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:905][ 91]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:905][ 91]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:905][ 91]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:913][ 92]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:913][ 92]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:913][ 92]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:922][ 93]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:922][ 93]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:922][ 93]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:930][ 94]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:930][ 94]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:930][ 94]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:939][ 95]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:939][ 95]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:939][ 95]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:947][ 96]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:947][ 96]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:947][ 96]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:955][ 97]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:955][ 97]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:955][ 97]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:964][ 98]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:964][ 98]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:964][ 98]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:972][ 99]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:972][ 99]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:972][ 99]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:981][100]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:981][100]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:981][100]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:989][101]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:989][101]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:989][101]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:997][102]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:998][102]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.27:998][102]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:006][103]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:006][103]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:006][103]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:014][104]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:014][104]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:014][104]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:022][105]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:022][105]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:022][105]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:031][106]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:031][106]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:031][106]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:039][107]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:039][107]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:039][107]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:048][108]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:048][108]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:048][108]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:057][109]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:057][109]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:057][109]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:065][110]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:065][110]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:065][110]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:073][111]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:073][111]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:073][111]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:082][112]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:082][112]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:082][112]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:090][113]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:090][113]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:090][113]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:098][114]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:098][114]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:098][114]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:105][115]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:105][115]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:105][115]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:115][116]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:115][116]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:115][116]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:123][117]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:123][117]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:123][117]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:131][118]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:131][118]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:131][118]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:139][119]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:140][119]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:140][119]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:148][120]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:148][120]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:148][120]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:156][121]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:157][121]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:157][121]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:165][122]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:165][122]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:165][122]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:172][123]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:173][123]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:173][123]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:181][124]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:181][124]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:181][124]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:189][125]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:189][125]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:189][125]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:198][126]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:198][126]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:198][126]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:206][127]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:206][127]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:206][127]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:214][128]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:214][128]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:214][128]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:224][129]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:224][129]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:224][129]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:232][130]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:232][130]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:232][130]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:240][131]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:241][131]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:241][131]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:248][132]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:248][132]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:248][132]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:257][133]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:257][133]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:257][133]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:266][134]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:266][134]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:266][134]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:274][135]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:274][135]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:274][135]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:282][136]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:282][136]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:282][136]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:291][137]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:291][137]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:291][137]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:299][138]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:299][138]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:299][138]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:308][139]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:308][139]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:308][139]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:316][140]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:316][140]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:316][140]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:324][141]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:324][141]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:324][141]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:332][142]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:332][142]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:332][142]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:341][143]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:341][143]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:341][143]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:349][144]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:349][144]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:349][144]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:357][145]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:357][145]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:357][145]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:366][146]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:366][146]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:366][146]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:374][147]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:374][147]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:374][147]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:382][148]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:382][148]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:382][148]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:390][149]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:390][149]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:390][149]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:399][150]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:399][150]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:399][150]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:407][151]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:407][151]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:407][151]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:415][152]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:415][152]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:415][152]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:424][153]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:424][153]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:424][153]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:433][154]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:433][154]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:433][154]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:441][155]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:441][155]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:441][155]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:449][156]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:449][156]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:449][156]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:458][157]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:458][157]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:458][157]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:466][158]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:466][158]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:466][158]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:474][159]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:474][159]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:474][159]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:483][160]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:483][160]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:483][160]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:490][161]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:491][161]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:491][161]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:499][162]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:499][162]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:499][162]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:508][163]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:508][163]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:508][163]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:515][164]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:515][164]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:515][164]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:524][165]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:525][165]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:525][165]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:532][166]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:532][166]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:532][166]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:541][167]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:542][167]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:542][167]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:549][168]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:549][168]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:549][168]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:558][169]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:558][169]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:558][169]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:566][170]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:566][170]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:566][170]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:575][171]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:575][171]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:575][171]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:583][172]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:583][172]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:583][172]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:591][173]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:591][173]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:591][173]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:599][174]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:599][174]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:599][174]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:608][175]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:608][175]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:608][175]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:616][176]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:616][176]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:616][176]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:625][177]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:625][177]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:625][177]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:633][178]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:633][178]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:633][178]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:642][179]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:642][179]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:642][179]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:649][180]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:650][180]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:650][180]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:659][181]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:659][181]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:659][181]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:667][182]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:667][182]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:667][182]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:675][183]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:675][183]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:675][183]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:683][184]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:683][184]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:683][184]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:692][185]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:692][185]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:692][185]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:699][186]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:700][186]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:700][186]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:709][187]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:709][187]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:709][187]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:717][188]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:717][188]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:717][188]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:725][189]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:725][189]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:725][189]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:734][190]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:734][190]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:734][190]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:742][191]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:742][191]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:742][191]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:751][192]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:751][192]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:751][192]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:758][193]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:758][193]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:758][193]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:767][194]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:767][194]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:767][194]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:775][195]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:775][195]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:775][195]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:784][196]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:784][196]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:784][196]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:792][197]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:792][197]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:792][197]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:801][198]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:801][198]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:801][198]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:808][199]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:808][199]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:808][199]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:817][200]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:817][200]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:817][200]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:825][201]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:826][201]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:826][201]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:834][202]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:834][202]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:834][202]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:842][203]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:842][203]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:842][203]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:851][204]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:851][204]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:851][204]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:858][205]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:858][205]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:859][205]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:867][206]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:867][206]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:867][206]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:875][207]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:875][207]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:875][207]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:884][208]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:884][208]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:884][208]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:893][209]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:893][209]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:893][209]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:900][210]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:901][210]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:901][210]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:910][211]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:910][211]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:910][211]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:917][212]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:917][212]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:917][212]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:925][213]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:925][213]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:925][213]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:934][214]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:934][214]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:934][214]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:943][215]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:943][215]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:943][215]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:951][216]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:951][216]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:951][216]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:959][217]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:959][217]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:959][217]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:967][218]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:967][218]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:967][218]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:975][219]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:975][219]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:975][219]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:984][220]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:984][220]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:984][220]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:993][221]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:993][221]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.28:993][221]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:001][222]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:001][222]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:001][222]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:010][223]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:010][223]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:010][223]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:019][224]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:019][224]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:019][224]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:027][225]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:027][225]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:027][225]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:035][226]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:035][226]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:035][226]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:043][227]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:043][227]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:043][227]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:051][228]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:051][228]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:051][228]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:060][229]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:060][229]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:060][229]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:068][230]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:068][230]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:068][230]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:077][231]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:077][231]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:077][231]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:085][232]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:085][232]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:085][232]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:093][233]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:093][233]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:093][233]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:101][234]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:101][234]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:101][234]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:109][235]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:110][235]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:110][235]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:119][236]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:119][236]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:119][236]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:127][237]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:127][237]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:127][237]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:134][238]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:134][238]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:134][238]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:143][239]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:143][239]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:143][239]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:151][240]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:151][240]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:151][240]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:160][241]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:160][241]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:160][241]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:168][242]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:168][242]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:168][242]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:175][243]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:175][243]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:175][243]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:185][244]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:185][244]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:185][244]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:193][245]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:193][245]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:193][245]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:202][246]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:202][246]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:202][246]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:210][247]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:210][247]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:210][247]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:218][248]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:219][248]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:219][248]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:226][249]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:226][249]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:226][249]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:235][250]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:235][250]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:235][250]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:243][251]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:243][251]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:243][251]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:251][252]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:251][252]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:251][252]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:260][253]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:260][253]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:260][253]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:268][254]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:268][254]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:268][254]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:276][255]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:277][255]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:277][255]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:285][256]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:285][256]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:285][256]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:294][257]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:294][257]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:294][257]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:302][258]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:302][258]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:302][258]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:310][259]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:310][259]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:310][259]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:319][260]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:319][260]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:319][260]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:327][261]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:327][261]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:327][261]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:335][262]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:335][262]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:335][262]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:344][263]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:344][263]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:344][263]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:351][264]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:352][264]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:352][264]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:360][265]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:360][265]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:360][265]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:368][266]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:368][266]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:368][266]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:377][267]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:377][267]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:377][267]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:385][268]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:385][268]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:385][268]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:394][269]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:394][269]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:394][269]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:402][270]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:402][270]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:402][270]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:411][271]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:411][271]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:411][271]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:419][272]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:419][272]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:419][272]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:427][273]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:427][273]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:427][273]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:435][274]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:435][274]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:435][274]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:444][275]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:444][275]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:444][275]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:453][276]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:453][276]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:453][276]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:461][277]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:461][277]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:461][277]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:470][278]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:470][278]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:470][278]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:478][279]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:478][279]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:478][279]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:486][280]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:486][280]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:486][280]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:494][281]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:494][281]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:494][281]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:503][282]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:503][282]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:503][282]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:510][283]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:511][283]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:511][283]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:520][284]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:520][284]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:520][284]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:527][285]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:528][285]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:528][285]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:535][286]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:535][286]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:536][286]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:545][287]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:545][287]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:545][287]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:553][288]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:553][288]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:553][288]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:561][289]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:561][289]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:561][289]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:570][290]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:571][290]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:571][290]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:578][291]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:578][291]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:578][291]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:585][292]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:587][292]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:587][292]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:595][293]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:595][293]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:595][293]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:603][294]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:603][294]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:603][294]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:612][295]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:612][295]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:612][295]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:620][296]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:620][296]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:620][296]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:629][297]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:629][297]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:629][297]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:637][298]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:637][298]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:637][298]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:645][299]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:645][299]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:645][299]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:654][300]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:654][300]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:654][300]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:662][301]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:662][301]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:662][301]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:670][302]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:671][302]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:671][302]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:679][303]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:679][303]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:679][303]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:687][304]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:687][304]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:687][304]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:695][305]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:695][305]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:695][305]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:703][306]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:703][306]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:703][306]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:712][307]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:712][307]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:712][307]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:720][308]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:720][308]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:720][308]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:729][309]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:729][309]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:729][309]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:737][310]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:737][310]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:737][310]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:745][311]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:745][311]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:745][311]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:754][312]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:754][312]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:754][312]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:762][313]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:762][313]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:762][313]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:771][314]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:771][314]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:771][314]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:779][315]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:779][315]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:779][315]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:787][316]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:787][316]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:787][316]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:795][317]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:795][317]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:795][317]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:804][318]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:804][318]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:804][318]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:812][319]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:812][319]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:812][319]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:821][320]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:821][320]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:821][320]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:829][321]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:829][321]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:829][321]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:838][322]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:838][322]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:838][322]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:846][323]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:846][323]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:846][323]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:855][324]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:855][324]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:855][324]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:862][325]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:862][325]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:862][325]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:870][326]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:870][326]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:870][326]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:879][327]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:879][327]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:879][327]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:888][328]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:888][328]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:888][328]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:895][329]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:895][329]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:895][329]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:904][330]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:904][330]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:904][330]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:913][331]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:913][331]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:913][331]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:921][332]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:921][332]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:921][332]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:929][333]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:929][333]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:929][333]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:938][334]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:938][334]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:938][334]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:946][335]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:946][335]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:946][335]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:954][336]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:954][336]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:954][336]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:963][337]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:963][337]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:963][337]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:972][338]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:972][338]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:972][338]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:980][339]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:980][339]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:980][339]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:988][340]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:988][340]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:988][340]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:997][341]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:997][341]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.29:997][341]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:005][342]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:005][342]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:005][342]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:013][343]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:013][343]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:013][343]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:022][344]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:022][344]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:022][344]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:029][345]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:029][345]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:029][345]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:038][346]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:038][346]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:038][346]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:047][347]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:047][347]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:047][347]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:055][348]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:055][348]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:055][348]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:063][349]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:063][349]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:063][349]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:071][350]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:071][350]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:071][350]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:080][351]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:080][351]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:080][351]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:088][352]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:088][352]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:088][352]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:097][353]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:097][353]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:097][353]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:105][354]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:105][354]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:105][354]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:114][355]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:114][355]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:114][355]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:122][356]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:122][356]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:122][356]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:130][357]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:130][357]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:130][357]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:139][358]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:139][358]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:139][358]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:146][359]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:146][359]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:146][359]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:155][360]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:155][360]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:155][360]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:164][361]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:164][361]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:164][361]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:171][362]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:171][362]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:171][362]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:181][363]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:181][363]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:181][363]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:188][364]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:188][364]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:188][364]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:198][365]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:198][365]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:198][365]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:206][366]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:206][366]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:206][366]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:214][367]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:214][367]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:214][367]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:223][368]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:223][368]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:223][368]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:230][369]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:230][369]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:230][369]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:240][370]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:240][370]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:240][370]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:248][371]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:248][371]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:248][371]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:257][372]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:257][372]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:257][372]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:265][373]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:265][373]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:265][373]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:273][374]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:273][374]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:273][374]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:280][375]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:281][375]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:281][375]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:289][376]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:289][376]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:290][376]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:297][377]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:297][377]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:297][377]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:305][378]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:305][378]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:305][378]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:315][379]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:315][379]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:315][379]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:322][380]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:322][380]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:322][380]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:331][381]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:331][381]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:331][381]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:339][382]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:340][382]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:340][382]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:348][383]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:348][383]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:348][383]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:355][384]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:355][384]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:355][384]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:365][385]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:365][385]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:365][385]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:373][386]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:373][386]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:373][386]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:381][387]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:382][387]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:382][387]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:390][388]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:390][388]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:390][388]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:398][389]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:398][389]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:398][389]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:407][390]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:407][390]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:407][390]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:415][391]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:415][391]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:415][391]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:423][392]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:423][392]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:423][392]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:431][393]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:431][393]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:431][393]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:439][394]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:439][394]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:439][394]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:448][395]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:448][395]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:448][395]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:457][396]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:457][396]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:457][396]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:465][397]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:465][397]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:465][397]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:473][398]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:473][398]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:473][398]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:481][399]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:481][399]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:481][399]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:489][400]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:489][400]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:489][400]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:498][401]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:498][401]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:498][401]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:506][402]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:506][402]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:506][402]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:515][403]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:515][403]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:515][403]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:522][404]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:522][404]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:523][404]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:532][405]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:532][405]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:532][405]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:539][406]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:540][406]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:540][406]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:548][407]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:549][407]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:549][407]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:557][408]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:557][408]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:557][408]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:565][409]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:565][409]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:565][409]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:573][410]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:573][410]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:573][410]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:581][411]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:581][411]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:581][411]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:590][412]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:590][412]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:590][412]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:598][413]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:598][413]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:598][413]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:606][414]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:606][414]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:606][414]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:614][415]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:614][415]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:614][415]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:623][416]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:623][416]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:623][416]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:631][417]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:631][417]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:631][417]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:640][418]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:640][418]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:640][418]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:649][419]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:649][419]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:649][419]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:657][420]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:657][420]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:657][420]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:665][421]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:665][421]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:665][421]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:674][422]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:674][422]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:674][422]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:681][423]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:681][423]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:681][423]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:690][424]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:690][424]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:691][424]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:698][425]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:698][425]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:698][425]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:707][426]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:707][426]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:707][426]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:715][427]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:715][427]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:715][427]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:724][428]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:724][428]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:724][428]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:732][429]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:732][429]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:732][429]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:741][430]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:741][430]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:741][430]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:749][431]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:749][431]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:749][431]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:757][432]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:757][432]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:757][432]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:766][433]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:766][433]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:766][433]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:773][434]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:773][434]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:773][434]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:782][435]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:782][435]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:782][435]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:791][436]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:791][436]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:791][436]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:799][437]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:799][437]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:799][437]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:807][438]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:807][438]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:807][438]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:816][439]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:816][439]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:816][439]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:824][440]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:824][440]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:824][440]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:832][441]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:832][441]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:832][441]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:840][442]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:840][442]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:840][442]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:849][443]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:849][443]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:849][443]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:856][444]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:856][444]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:856][444]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:865][445]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:865][445]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:865][445]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:873][446]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:873][446]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:873][446]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:882][447]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:882][447]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:882][447]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:890][448]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:890][448]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:890][448]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:899][449]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:899][449]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:899][449]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:906][450]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:907][450]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:907][450]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:915][451]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:915][451]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:915][451]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:923][452]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:923][452]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:923][452]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:932][453]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:932][453]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:932][453]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:941][454]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:941][454]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:941][454]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:949][455]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:949][455]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:949][455]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:958][456]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:958][456]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:958][456]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:966][457]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:966][457]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:966][457]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:974][458]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:974][458]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:974][458]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:982][459]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:982][459]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:982][459]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:990][460]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:990][460]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:990][460]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:999][461]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:999][461]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.30:999][461]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:007][462]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:007][462]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:007][462]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:015][463]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:015][463]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:015][463]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:024][464]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:024][464]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:024][464]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:032][465]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:032][465]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:032][465]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:041][466]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:041][466]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:041][466]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:048][467]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:049][467]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:049][467]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:057][468]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:057][468]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:057][468]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:065][469]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:065][469]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:066][469]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:074][470]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:074][470]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:074][470]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:082][471]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:082][471]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:082][471]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:091][472]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:091][472]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:091][472]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:098][473]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:098][473]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:098][473]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:107][474]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:107][474]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:107][474]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:115][475]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:115][475]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:115][475]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:123][476]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:124][476]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:124][476]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:132][477]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:132][477]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:132][477]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:140][478]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:140][478]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:140][478]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:149][479]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:149][479]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:149][479]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:158][480]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:158][480]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:158][480]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:166][481]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:167][481]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:167][481]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:173][482]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:174][482]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:174][482]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:183][483]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:183][483]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:183][483]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:190][484]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:190][484]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:190][484]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:199][485]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:199][485]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:200][485]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:207][486]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:207][486]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:207][486]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:215][487]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:215][487]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:215][487]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:224][488]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:224][488]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:224][488]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:232][489]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:232][489]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:232][489]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:241][490]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:241][490]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:241][490]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:249][491]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:249][491]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:249][491]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:257][492]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:258][492]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:258][492]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:266][493]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:266][493]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:266][493]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:274][494]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:274][494]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:274][494]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:282][495]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:282][495]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:282][495]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:291][496]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:291][496]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:291][496]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:299][497]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:299][497]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:299][497]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:307][498]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:307][498]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:307][498]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:315][499]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:315][499]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:315][499]LogTemp: Error: Patrol Action is Running
+[2024.11.02-06.28.31:348][499]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.02-06.28.31:348][499]LogWorld: BeginTearingDown for /Game/Levels/UEDPIE_0_MultiplayerMap
+[2024.11.02-06.28.31:348][499]LogWorld: UWorld::CleanupWorld for MultiplayerMap, bSessionEnded=true, bCleanupResources=true
+[2024.11.02-06.28.31:349][499]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.02-06.28.31:354][499]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2024.11.02-06.28.31:359][499]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2024.11.02-06.28.31:381][499]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2024.11.02-06.28.31:381][499]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 3
+[2024.11.02-06.28.31:381][499]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.11.02-06.28.31:383][499]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2024.11.02-06.28.31:386][499]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2024.11.02-06.28.31:389][499]LogUObjectHash: Compacting FUObjectHashTables data took   1.25ms
+[2024.11.02-06.28.31:415][499]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.11.02-06.28.31:415][499]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.11.02-06.28.31:417][499]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.11.02-06.28.31:417][499]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.11.02-06.28.31:418][499]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.11.02-06.28.31:418][499]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.11.02-06.28.31:419][499]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
+[2024.11.02-06.28.31:437][500]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2024.11.02-06.28.31:447][500]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
