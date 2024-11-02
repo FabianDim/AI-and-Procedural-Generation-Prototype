@@ -7,10 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c82a347c-0638-4597-9f8d-e33aab7ae415" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Saved/Logs/AGP.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/AGP.log" afterDir="false" />
-    </list>
+    <list default="true" id="c82a347c-0638-4597-9f8d-e33aab7ae415" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +27,8 @@
     <setting file="file://$PROJECT_DIR$/Source/AGP/Characters/WeaponComponent.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/AGP/CoverNode.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/AGP/CoverNode.h" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/AGP/CoverNodeComponent.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/AGP/CoverNodeComponent.h" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/AGP/CoverSpawner.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/AGP/CoverSpawner.h" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/AGP/Fabians AI Component/EvadeAction.h" root0="SKIP_HIGHLIGHTING" />
@@ -214,7 +213,7 @@
       <workItem from="1730459077148" duration="3163000" />
       <workItem from="1730462791677" duration="311000" />
       <workItem from="1730514420859" duration="216000" />
-      <workItem from="1730523833230" duration="1085000" />
+      <workItem from="1730523833230" duration="1779000" />
     </task>
     <servers />
   </component>
