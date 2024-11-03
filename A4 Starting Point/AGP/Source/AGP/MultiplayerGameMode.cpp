@@ -1,9 +1,7 @@
-// Fill out your copyright notice in the Description page of Project Settings.
-
-
 #include "MultiplayerGameMode.h"
-
 #include "Characters/PlayerCharacter.h"
+#include "Characters/EnemyCharacter.h" // Include your enemy character header
+#include "Characters/HealthComponent.h"
 
 void AMultiplayerGameMode::RespawnPlayer(AController* Controller)
 {
@@ -21,5 +19,33 @@ void AMultiplayerGameMode::RespawnPlayer(AController* Controller)
 			}
 		}
 	}
-	
+}
+
+void AMultiplayerGameMode::RespawnEnemy(AEnemyCharacter* Enemy)
+{
+	if (Enemy)
+	{
+		FVector SpawnLocation = Enemy->GetActorLocation();
+		FRotator SpawnRotation = Enemy->GetActorRotation();
+
+		// Store the class type of the enemy
+		TSubclassOf<AEnemyCharacter> EnemyClass = Enemy->GetClass();
+
+		// Destroy the current enemy
+		Enemy->Destroy();
+
+		// Spawn a new enemy at the original location
+		if (EnemyCharacterClass)
+		{
+			AEnemyCharacter* NewEnemy = GetWorld()->SpawnActor<AEnemyCharacter>(EnemyCharacterClass, SpawnLocation, SpawnRotation);
+			if (NewEnemy)
+			{
+				// Reset the health of the new enemy
+				if (UHealthComponent* HealthComp = NewEnemy->FindComponentByClass<UHealthComponent>())
+				{
+					HealthComp->ResetHealth();
+				}
+			}
+		}
+	}
 }

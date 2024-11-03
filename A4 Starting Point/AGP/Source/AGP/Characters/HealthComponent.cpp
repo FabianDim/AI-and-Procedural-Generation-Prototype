@@ -3,7 +3,9 @@
 
 #include "HealthComponent.h"
 
+#include "EnemyCharacter.h"
 #include "PlayerCharacter.h"
+#include "AGP/MultiplayerGameMode.h"
 #include "Net/UnrealNetwork.h"
 
 // Sets default values for this component's properties
@@ -74,17 +76,22 @@ void UHealthComponent::BeginPlay()
 
 void UHealthComponent::OnDeath()
 {
-	UE_LOG(LogTemp, Display, TEXT("The character has died."))
+	UE_LOG(LogTemp, Display, TEXT("The character has died."));
 	bIsDead = true;
-	// Tell the server base character that they have died.
 
-	// This OnDeath function will only be called on the server in the current setup but it is still worth
-	// checking that we are only handling this logic on the server.
-	if (GetOwnerRole() != ROLE_Authority) return;
-	
-	if (ABaseCharacter* Character = Cast<ABaseCharacter>(GetOwner()))
+	// Notify the owning character that they have died.
+	if (GetOwnerRole() == ROLE_Authority) // Only run this on the server
 	{
-		Character->OnDeath();
+		if (ABaseCharacter* Character = Cast<ABaseCharacter>(GetOwner()))
+		{
+			Character->OnDeath();
+
+			// Get the game mode and respawn the enemy
+			if (AMultiplayerGameMode* GameMode = Cast<AMultiplayerGameMode>(GetWorld()->GetAuthGameMode()))
+			{
+				GameMode->RespawnEnemy(Cast<AEnemyCharacter>(Character));
+			}
+		}
 	}
 }
 
