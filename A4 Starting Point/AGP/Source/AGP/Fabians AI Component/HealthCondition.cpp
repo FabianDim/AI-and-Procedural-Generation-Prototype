@@ -15,8 +15,8 @@ EStatus UHealthCondition::update()
 		return EStatus::Failure;
 	}
 
-	float CurrentHealth = EnemyCharacter->HealthComponent->GetCurrentHealth(); // Ensure you have a method to get current health
-	if (CurrentHealth <= HealthThreshold)
+	float CurrentHealth = EnemyCharacter->HealthComponent->GetCurrentHealth(); // Gets the current health
+	if (CurrentHealth <= HealthThreshold) //compares to threshold.
 	{
 		return EStatus::Success;
 	}

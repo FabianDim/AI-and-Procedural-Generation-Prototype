@@ -63,7 +63,7 @@ void AEnemyCharacter::BeginPlay()
 		return;
 	}
     
-	UFabiansActiveSelector* RootSelector = Cast<UFabiansActiveSelector>(BehaviourTreeRoot);
+	UFabiansActiveSelector* RootSelector = Cast<UFabiansActiveSelector>(BehaviourTreeRoot); //selects the root.
 	if (!RootSelector)
 	{
 		UE_LOG(LogTemp, Error, TEXT("Failed to cast BehaviourTreeRoot to UFabiansActiveSelector"));
@@ -167,11 +167,10 @@ void AEnemyCharacter::BeginPlay()
 	}
 	HasGunCondition->EnemyCharacter = this;
 	
-	PatrolConditionSelector->AddChild(NoGunCondition);
+	PatrolConditionSelector->AddChild(NoGunCondition); //patrol selector
 	PatrolConditionSelector->AddChild(PlayerNotDetected);
 
 	// Build sequences
-
 	EvadeSequence->AddChild(HealthCondition);
 	EvadeSequence->AddChild(EvadeAction);
 
@@ -179,7 +178,8 @@ void AEnemyCharacter::BeginPlay()
 	EngageSequence->AddChild(PlayerDetected);
 	EngageSequence->AddChild(MoveToPlayerAction);
 
-	PatrolSequence->AddChild(PatrolConditionSelector);
+	PatrolSequence->AddChild(PatrolConditionSelector); //the patrol action has two conditions that if one is successful
+	// we return success. Therefore I used a new selector.
 	PatrolSequence->AddChild(PatrolAction);
 
 
@@ -189,8 +189,8 @@ void AEnemyCharacter::BeginPlay()
 	UE_LOG(LogTemp, Error, TEXT("Adding Engage Sequence"));
 	Selector->AddChild(PatrolSequence);
 	UE_LOG(LogTemp, Error, TEXT("Adding Patrol Sequence"));
-	// Add sequences to root selector
-	RootSelector->AddChild(Selector);
+	// Add selector to root selector
+	RootSelector->AddChild(Selector); //selects the selector that needs to be used.
 }
 
 void AEnemyCharacter::MoveAlongPath()
@@ -223,11 +223,11 @@ UCoverNodeComponent* AEnemyCharacter::FindNearestCoverNode()
 		UCoverNodeComponent* CurrentCoverNode = Actor->FindComponentByClass<UCoverNodeComponent>();
 		if (CurrentCoverNode && !CurrentCoverNode->bIsOccupied)
 		{
-			float DistanceSq = FVector::DistSquared(GetActorLocation(), CurrentCoverNode->GetComponentLocation());
-			if (DistanceSq < NearestDistanceSq)
+			float DistanceSq = FVector::DistSquared(GetActorLocation(), CurrentCoverNode->GetComponentLocation()); //essentially a maximum pattern 
+			if (DistanceSq < NearestDistanceSq) //attempts to find the closest cover node
 			{
 				NearestDistanceSq = DistanceSq;
-				NearestCoverNode = CurrentCoverNode;
+				NearestCoverNode = CurrentCoverNode;//maximum pattern finding closest node
 			}
 		}
 	}
