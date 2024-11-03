@@ -2,7 +2,7 @@
 #include "Engine/World.h"
 #include "Characters/EnemyCharacter.h" // Include your enemy character header
 #include "TimerManager.h"
-#include "Kismet/GameplayStatics.h"
+#include "AIController.h" // Include AIController
 
 // Sets default values
 AEnemySpawner::AEnemySpawner()
@@ -30,11 +30,6 @@ void AEnemySpawner::Tick(float DeltaTime)
 
 void AEnemySpawner::SpawnEnemy()
 {
-	if (!HasAuthority())
-	{
-		UE_LOG(LogTemp, Warning, TEXT("SpawnEnemy called on client, aborting."));
-		return;
-	}
 	// Check for the number of currently active enemies
 	TArray<AActor*> ActiveEnemies;
 	UGameplayStatics::GetAllActorsOfClass(GetWorld(), EnemyCharacterClass, ActiveEnemies);
@@ -50,8 +45,14 @@ void AEnemySpawner::SpawnEnemy()
 		FRotator SpawnRotation = FRotator::ZeroRotator; // Use a default rotation
 
 		// Spawn the enemy character
-		AEnemyCharacter* EnemyCharacter = GetWorld()->SpawnActor<AEnemyCharacter>(EnemyCharacterClass, SpawnLocation, SpawnRotation);
-		float DeltaTime = 0.0f;
-		
+		AEnemyCharacter* SpawnedEnemy = GetWorld()->SpawnActor<AEnemyCharacter>(EnemyCharacterClass, SpawnLocation, SpawnRotation);
+		if (SpawnedEnemy)
+		{
+			// Ensure the enemy has an AI controller
+			if (!SpawnedEnemy->GetController())
+			{
+				SpawnedEnemy->SpawnDefaultController();
+			}
+		}
 	}
 }

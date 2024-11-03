@@ -14,11 +14,11 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define AGP_MultiplayerGameMode_generated_h
 
-#define FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_MultiplayerGameMode_h_17_SPARSE_DATA
-#define FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_MultiplayerGameMode_h_17_RPC_WRAPPERS
-#define FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_MultiplayerGameMode_h_17_RPC_WRAPPERS_NO_PURE_DECLS
-#define FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_MultiplayerGameMode_h_17_ACCESSORS
-#define FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_MultiplayerGameMode_h_17_INCLASS_NO_PURE_DECLS \
+#define FID_AGP_Source_AGP_MultiplayerGameMode_h_17_SPARSE_DATA
+#define FID_AGP_Source_AGP_MultiplayerGameMode_h_17_RPC_WRAPPERS
+#define FID_AGP_Source_AGP_MultiplayerGameMode_h_17_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_AGP_Source_AGP_MultiplayerGameMode_h_17_ACCESSORS
+#define FID_AGP_Source_AGP_MultiplayerGameMode_h_17_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAMultiplayerGameMode(); \
 	friend struct Z_Construct_UClass_AMultiplayerGameMode_Statics; \
@@ -27,7 +27,7 @@ public: \
 	DECLARE_SERIALIZER(AMultiplayerGameMode)
 
 
-#define FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_MultiplayerGameMode_h_17_INCLASS \
+#define FID_AGP_Source_AGP_MultiplayerGameMode_h_17_INCLASS \
 private: \
 	static void StaticRegisterNativesAMultiplayerGameMode(); \
 	friend struct Z_Construct_UClass_AMultiplayerGameMode_Statics; \
@@ -36,7 +36,7 @@ public: \
 	DECLARE_SERIALIZER(AMultiplayerGameMode)
 
 
-#define FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_MultiplayerGameMode_h_17_STANDARD_CONSTRUCTORS \
+#define FID_AGP_Source_AGP_MultiplayerGameMode_h_17_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AMultiplayerGameMode(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AMultiplayerGameMode) \
@@ -50,7 +50,7 @@ public: \
 	NO_API virtual ~AMultiplayerGameMode();
 
 
-#define FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_MultiplayerGameMode_h_17_ENHANCED_CONSTRUCTORS \
+#define FID_AGP_Source_AGP_MultiplayerGameMode_h_17_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AMultiplayerGameMode(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 private: \
@@ -64,27 +64,27 @@ public: \
 	NO_API virtual ~AMultiplayerGameMode();
 
 
-#define FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_MultiplayerGameMode_h_14_PROLOG
-#define FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_MultiplayerGameMode_h_17_GENERATED_BODY_LEGACY \
+#define FID_AGP_Source_AGP_MultiplayerGameMode_h_14_PROLOG
+#define FID_AGP_Source_AGP_MultiplayerGameMode_h_17_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_MultiplayerGameMode_h_17_SPARSE_DATA \
-	FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_MultiplayerGameMode_h_17_RPC_WRAPPERS \
-	FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_MultiplayerGameMode_h_17_ACCESSORS \
-	FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_MultiplayerGameMode_h_17_INCLASS \
-	FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_MultiplayerGameMode_h_17_STANDARD_CONSTRUCTORS \
+	FID_AGP_Source_AGP_MultiplayerGameMode_h_17_SPARSE_DATA \
+	FID_AGP_Source_AGP_MultiplayerGameMode_h_17_RPC_WRAPPERS \
+	FID_AGP_Source_AGP_MultiplayerGameMode_h_17_ACCESSORS \
+	FID_AGP_Source_AGP_MultiplayerGameMode_h_17_INCLASS \
+	FID_AGP_Source_AGP_MultiplayerGameMode_h_17_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_MultiplayerGameMode_h_17_GENERATED_BODY \
+#define FID_AGP_Source_AGP_MultiplayerGameMode_h_17_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_MultiplayerGameMode_h_17_SPARSE_DATA \
-	FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_MultiplayerGameMode_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_MultiplayerGameMode_h_17_ACCESSORS \
-	FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_MultiplayerGameMode_h_17_INCLASS_NO_PURE_DECLS \
-	FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_MultiplayerGameMode_h_17_ENHANCED_CONSTRUCTORS \
+	FID_AGP_Source_AGP_MultiplayerGameMode_h_17_SPARSE_DATA \
+	FID_AGP_Source_AGP_MultiplayerGameMode_h_17_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_AGP_Source_AGP_MultiplayerGameMode_h_17_ACCESSORS \
+	FID_AGP_Source_AGP_MultiplayerGameMode_h_17_INCLASS_NO_PURE_DECLS \
+	FID_AGP_Source_AGP_MultiplayerGameMode_h_17_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -92,7 +92,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> AGP_API UClass* StaticClass<class AMultiplayerGameMode>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_MultiplayerGameMode_h
+#define CURRENT_FILE_ID FID_AGP_Source_AGP_MultiplayerGameMode_h
 
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

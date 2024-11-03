@@ -33,9 +33,9 @@
 /NODEFAULTLIB:"LIBCD"
 /NODEFAULTLIB:"LIBCPD"
 /FUNCTIONPADMIN:6
-"C:\Users\byrne\OneDrive\Desktop\Gamedev\A4-Repository\A4 Starting Point\AGP\Intermediate\Build\Win64\x64\AGPEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h.obj"
-"C:\Users\byrne\OneDrive\Desktop\Gamedev\A4-Repository\A4 Starting Point\AGP\Intermediate\Build\Win64\x64\UnrealEditor\Development\AGP\Module.AGP.cpp.obj"
-"C:\Users\byrne\OneDrive\Desktop\Gamedev\A4-Repository\A4 Starting Point\AGP\Intermediate\Build\Win64\x64\UnrealEditor\Development\AGP\Default.rc2.res"
+"C:\Repos\A4-Repository\A4 Starting Point\AGP\Intermediate\Build\Win64\x64\AGPEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h.obj"
+"C:\Repos\A4-Repository\A4 Starting Point\AGP\Intermediate\Build\Win64\x64\UnrealEditor\Development\AGP\Module.AGP.cpp.obj"
+"C:\Repos\A4-Repository\A4 Starting Point\AGP\Intermediate\Build\Win64\x64\UnrealEditor\Development\AGP\Default.rc2.res"
 "..\Plugins\EnhancedInput\Intermediate\Build\Win64\x64\UnrealEditor\Development\EnhancedInput\UnrealEditor-EnhancedInput.lib"
 "..\Intermediate\Build\Win64\x64\UnrealEditor\Development\AIModule\UnrealEditor-AIModule.lib"
 "..\Plugins\Runtime\ProceduralMeshComponent\Intermediate\Build\Win64\x64\UnrealEditor\Development\ProceduralMeshComponent\UnrealEditor-ProceduralMeshComponent.lib"
@@ -69,7 +69,7 @@
 "setupapi.lib"
 "dwmapi.lib"
 "imm32.lib"
-/OUT:"C:\Users\byrne\OneDrive\Desktop\Gamedev\A4-Repository\A4 Starting Point\AGP\Binaries\Win64\UnrealEditor-AGP.dll"
-/IMPLIB:"C:\Users\byrne\OneDrive\Desktop\Gamedev\A4-Repository\A4 Starting Point\AGP\Intermediate\Build\Win64\x64\UnrealEditor\Development\AGP\UnrealEditor-AGP.suppressed.lib"
-/PDB:"C:\Users\byrne\OneDrive\Desktop\Gamedev\A4-Repository\A4 Starting Point\AGP\Binaries\Win64\UnrealEditor-AGP.pdb"
+/OUT:"C:\Repos\A4-Repository\A4 Starting Point\AGP\Binaries\Win64\UnrealEditor-AGP.dll"
+/IMPLIB:"C:\Repos\A4-Repository\A4 Starting Point\AGP\Intermediate\Build\Win64\x64\UnrealEditor\Development\AGP\UnrealEditor-AGP.suppressed.lib"
+/PDB:"C:\Repos\A4-Repository\A4 Starting Point\AGP\Binaries\Win64\UnrealEditor-AGP.pdb"
 /ignore:4078

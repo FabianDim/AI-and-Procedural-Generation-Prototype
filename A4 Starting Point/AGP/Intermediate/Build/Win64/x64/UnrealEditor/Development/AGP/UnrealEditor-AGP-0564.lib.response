@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-AGP-0564.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\byrne\OneDrive\Desktop\Gamedev\A4-Repository\A4 Starting Point\AGP\Intermediate\Build\Win64\x64\AGPEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.InclOrderUnreal5_1.h.obj"
+"C:\Users\byrne\OneDrive\Desktop\Gamedev\A4-Repository\A4 Starting Point\AGP\Intermediate\Build\Win64\x64\UnrealEditor\Development\AGP\Module.AGP.cpp.obj"
+"C:\Users\byrne\OneDrive\Desktop\Gamedev\A4-Repository\A4 Starting Point\AGP\Intermediate\Build\Win64\x64\UnrealEditor\Development\AGP\Default.rc2.res"
+/OUT:"C:\Users\byrne\OneDrive\Desktop\Gamedev\A4-Repository\A4 Starting Point\AGP\Intermediate\Build\Win64\x64\UnrealEditor\Development\AGP\UnrealEditor-AGP-0564.lib"
