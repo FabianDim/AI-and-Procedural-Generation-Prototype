@@ -27,9 +27,17 @@ void AEnemySpawner::Tick(float DeltaTime)
 	Super::Tick(DeltaTime);
 }
 
-// Function to spawn an enemy
 void AEnemySpawner::SpawnEnemy()
 {
+	// Check for the number of currently active enemies
+	TArray<AActor*> ActiveEnemies;
+	UGameplayStatics::GetAllActorsOfClass(GetWorld(), EnemyCharacterClass, ActiveEnemies);
+
+	if (ActiveEnemies.Num() >= MaxActiveEnemies)
+	{
+		return; // Don't spawn more if we hit the limit
+	}
+
 	if (EnemyCharacterClass)
 	{
 		FVector SpawnLocation = GetActorLocation(); // Spawn at the spawner's location

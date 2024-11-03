@@ -27,6 +27,11 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Spawning")
 	TSubclassOf<class AEnemyCharacter> EnemyCharacterClass;
 
+	//Max enemies 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Enemy Spawner")
+	int32 MaxActiveEnemies = 5; // Set default to 5
+
+
 	// Timer handle for the spawn interval
 	FTimerHandle SpawnTimerHandle;
 
