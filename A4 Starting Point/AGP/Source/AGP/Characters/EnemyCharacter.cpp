@@ -15,6 +15,7 @@
 #include "AGP/Fabians AI Component/NoGunCondition.h"
 #include "AGP/Fabians AI Component/PatrolAction.h"
 #include "AGP/Fabians AI Component/PlayerDetectedCondition.h"
+#include "AGP/Jays_Cover_Component/CoverNodeComponent.h"
 #include "AGP/Pathfinding/PathfindingSubsystem.h"
 #include "Perception/PawnSensingComponent.h"
 
@@ -103,6 +104,7 @@ void AEnemyCharacter::BeginPlay()
 		return;
 	}
 	EvadeAction->EnemyCharacter = this;
+	/*EvadeAction->CoverNodeComponent = CoverNodeComponent->CheckForEnemy();*/
 
 	UPlayerDetectedCondition* PlayerDetected = NewObject<UPlayerDetectedCondition>(this);
 	if (!PlayerDetected)
@@ -212,6 +214,27 @@ void AEnemyCharacter::MoveAlongPath()
 	}
 }
 
+void AEnemyCharacter::MoveToCover(UCoverNodeComponent* CoverNode)
+{
+	if (!CoverNode)
+	{
+		UE_LOG(LogTemp, Error, TEXT("CoverNode is null in MoveToCover"));
+		return;
+	}
+
+	FVector CoverLocation = CoverNode->GetComponentLocation();
+
+	if(CurrentPath.IsEmpty())
+	{
+		CurrentPath = PathfindingSubsystem->GetPath(GetActorLocation(), CoverLocation);
+	}
+
+	// Set bIsOccupied to true to mark the cover as occupied
+	CoverNode->bIsOccupied = true;
+    
+	MoveAlongPath();
+}
+
 void AEnemyCharacter::TickPatrol()
 {
 	if (CurrentPath.IsEmpty())
@@ -219,6 +242,8 @@ void AEnemyCharacter::TickPatrol()
 		CurrentPath = PathfindingSubsystem->GetRandomPath(GetActorLocation());
 	}
 	MoveAlongPath();
+
+	
 }
 
 void AEnemyCharacter::TickEngage()

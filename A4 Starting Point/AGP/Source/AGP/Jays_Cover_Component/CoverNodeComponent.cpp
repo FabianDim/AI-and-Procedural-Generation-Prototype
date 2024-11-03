@@ -1,5 +1,6 @@
 #include "CoverNodeComponent.h"
 #include "DrawDebugHelpers.h"
+#include "AGP/Characters/EnemyCharacter.h"
 
 UCoverNodeComponent::UCoverNodeComponent()
 {
@@ -28,7 +29,7 @@ void UCoverNodeComponent::DrawDebugCoverNode()
     DrawDebugSphere(GetWorld(), GetComponentLocation(), 50.0f, 12, DebugColor, false, -1, 0, 2.0f);
 }
 
-void UCoverNodeComponent::CheckForEnemy()
+UCoverNodeComponent* UCoverNodeComponent::CheckForEnemy()
 {
     // Define the start and end points for the raycast
     FVector Start = GetComponentLocation();
@@ -45,7 +46,16 @@ void UCoverNodeComponent::CheckForEnemy()
         if (AEnemyCharacter* HitEnemy = Cast<AEnemyCharacter>(HitResult.GetActor()))
         {
             // Log a message when an enemy character is touched
-            UE_LOG(LogTemp, Warning, TEXT("Touched EnemyCharacter: %s"), *HitEnemy->GetName());
+            if (HitEnemy && this)
+            {
+                UE_LOG(LogTemp, Warning, TEXT("Touched EnemyCharacter: %s"), *HitEnemy->GetName());
+                /*HitEnemy->MoveToCover(this);*/
+            }
+            else
+            {
+                UE_LOG(LogTemp, Error, TEXT("Failed to detect enemy or invalid CoverNodeComponent"));
+            }
         }
     }
+    return this;
 }

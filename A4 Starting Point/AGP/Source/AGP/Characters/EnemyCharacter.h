@@ -15,6 +15,7 @@
 class UPawnSensingComponent;
 class APlayerCharacter;
 class UPathfindingSubsystem;
+class UCoverNodeComponent;
 
 /**
  * An enum to hold the current state of the enemy character.
@@ -40,6 +41,8 @@ class AGP_API AEnemyCharacter : public ABaseCharacter
 	friend class UPlayerNotDetectedCondition;
 	friend class UEvadeAction;
 	friend class UHealthCondition;
+	friend class UCoverNodeComponent;
+	friend class UMoveToCoverAction;
 public:
 	// Sets default values for this character's properties
 	AEnemyCharacter();
@@ -53,6 +56,7 @@ protected:
 	 * Will move the character along the CurrentPath or do nothing to the character if the path is empty.
 	 */
 	void MoveAlongPath();
+	void MoveToCover(UCoverNodeComponent* CoverNode);
 
 	/**
 	 * Logic that controls the enemy character when in the Patrol state.
@@ -139,6 +143,9 @@ private:
 	UPlayerDetectedCondition* PlayerDetectedCondition;
 	UPROPERTY()
 	UPlayerNotDetectedCondition* PlayerNotDetectedCondition;
+
+	UPROPERTY()
+	UCoverNodeComponent* CoverNodeComponent;
 
 	UPROPERTY()
 	UPickupManagerSubsystem* PickupManagerSubsystem;

@@ -3,7 +3,7 @@
 
 #include "EvadeAction.h"
 
-#include "HealthCondition.h"
+#include "AGP/Jays_Cover_Component/CoverNodeComponent.h"
 
 EStatus UEvadeAction::update()
 {

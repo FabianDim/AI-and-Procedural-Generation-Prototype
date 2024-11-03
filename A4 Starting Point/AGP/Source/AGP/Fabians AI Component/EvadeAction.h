@@ -27,4 +27,7 @@ protected:
 
 	UPROPERTY()
 	UHealthCondition* HealthCondition;
+
+	UPROPERTY()
+	UCoverNodeComponent* CoverNodeComponent;
 };

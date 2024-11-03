@@ -63,12 +63,6 @@
     <ClInclude Include="..\..\Source\AGP\AGPGameModeBase.h">
       <Filter>Source\AGP</Filter>
     </ClInclude>
-    <ClCompile Include="..\..\Source\AGP\CoverSpawner.cpp">
-      <Filter>Source\AGP</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\AGP\CoverSpawner.h">
-      <Filter>Source\AGP</Filter>
-    </ClInclude>
     <ClCompile Include="..\..\Source\AGP\MultiplayerGameMode.cpp">
       <Filter>Source\AGP</Filter>
     </ClCompile>
@@ -171,6 +165,12 @@
     <ClInclude Include="..\..\Source\AGP\Fabians AI Component\HealthCondition.h">
       <Filter>Source\AGP\Fabians AI Component</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\AGP\Fabians AI Component\MoveToCoverAction.cpp">
+      <Filter>Source\AGP\Fabians AI Component</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AGP\Fabians AI Component\MoveToCoverAction.h">
+      <Filter>Source\AGP\Fabians AI Component</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\AGP\Fabians AI Component\MoveToPlayerAction.cpp">
       <Filter>Source\AGP\Fabians AI Component</Filter>
     </ClCompile>
@@ -221,6 +221,27 @@
     </ClCompile>
     <ClInclude Include="..\..\Source\AGP\Fabians AI Component\Unused Classes\FabiansParallel.h">
       <Filter>Source\AGP\Fabians AI Component\Unused Classes</Filter>
+    </ClInclude>
+    <Filter Include="Source\AGP\Jays_Cover_Component">
+      <UniqueIdentifier>{C2A1F731-E709-304A-90C1-6D9055E72A43}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\AGP\Jays_Cover_Component\CoverNode.cpp">
+      <Filter>Source\AGP\Jays_Cover_Component</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AGP\Jays_Cover_Component\CoverNode.h">
+      <Filter>Source\AGP\Jays_Cover_Component</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AGP\Jays_Cover_Component\CoverNodeComponent.cpp">
+      <Filter>Source\AGP\Jays_Cover_Component</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AGP\Jays_Cover_Component\CoverNodeComponent.h">
+      <Filter>Source\AGP\Jays_Cover_Component</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\AGP\Jays_Cover_Component\CoverSpawner.cpp">
+      <Filter>Source\AGP\Jays_Cover_Component</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AGP\Jays_Cover_Component\CoverSpawner.h">
+      <Filter>Source\AGP\Jays_Cover_Component</Filter>
     </ClInclude>
     <Filter Include="Source\AGP\Landscape">
       <UniqueIdentifier>{7C16FBDF-40F1-3CD8-B333-7723242720AF}</UniqueIdentifier>

@@ -8,6 +8,9 @@ UCLASS(ClassGroup = (Custom), meta = (BlueprintSpawnableComponent))
 class AGP_API UCoverNodeComponent : public USceneComponent
 {
 	GENERATED_BODY()
+	friend class AEnemyCharacter;
+	friend class UMoveToCoverAction;
+	friend class UEvadeAction;
     
 public:
 	UCoverNodeComponent();
@@ -28,5 +31,7 @@ public:
 
 private:
 	void DrawDebugCoverNode();
-	void CheckForEnemy();
+	UCoverNodeComponent* /*void */CheckForEnemy();
+	UPROPERTY()
+	AEnemyCharacter* EnemyCharacter;
 };

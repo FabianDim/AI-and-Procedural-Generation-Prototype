@@ -10,6 +10,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeEvadeAction() {}
 // Cross Module References
 	AGP_API UClass* Z_Construct_UClass_AEnemyCharacter_NoRegister();
+	AGP_API UClass* Z_Construct_UClass_UCoverNodeComponent_NoRegister();
 	AGP_API UClass* Z_Construct_UClass_UEvadeAction();
 	AGP_API UClass* Z_Construct_UClass_UEvadeAction_NoRegister();
 	AGP_API UClass* Z_Construct_UClass_UFabiansSequence();
@@ -43,6 +44,10 @@ void EmptyLinkFunctionForGeneratedCodeEvadeAction() {}
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_HealthCondition_MetaData[];
 #endif
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_HealthCondition;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_CoverNodeComponent_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_CoverNodeComponent;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
@@ -76,10 +81,18 @@ void EmptyLinkFunctionForGeneratedCodeEvadeAction() {}
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UEvadeAction_Statics::NewProp_HealthCondition = { "HealthCondition", nullptr, (EPropertyFlags)0x0020080000000000, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(UEvadeAction, HealthCondition), Z_Construct_UClass_UHealthCondition_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UEvadeAction_Statics::NewProp_HealthCondition_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UEvadeAction_Statics::NewProp_HealthCondition_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UEvadeAction_Statics::NewProp_CoverNodeComponent_MetaData[] = {
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Fabians AI Component/EvadeAction.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_UEvadeAction_Statics::NewProp_CoverNodeComponent = { "CoverNodeComponent", nullptr, (EPropertyFlags)0x0020080000080008, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(UEvadeAction, CoverNodeComponent), Z_Construct_UClass_UCoverNodeComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_UEvadeAction_Statics::NewProp_CoverNodeComponent_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_UEvadeAction_Statics::NewProp_CoverNodeComponent_MetaData)) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UEvadeAction_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UEvadeAction_Statics::NewProp_PlayerDetected,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UEvadeAction_Statics::NewProp_EnemyCharacter,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UEvadeAction_Statics::NewProp_HealthCondition,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UEvadeAction_Statics::NewProp_CoverNodeComponent,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UEvadeAction_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UEvadeAction>::IsAbstract,
@@ -119,9 +132,9 @@ void EmptyLinkFunctionForGeneratedCodeEvadeAction() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Fabians_AI_Component_EvadeAction_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_UEvadeAction, UEvadeAction::StaticClass, TEXT("UEvadeAction"), &Z_Registration_Info_UClass_UEvadeAction, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UEvadeAction), 823343569U) },
+		{ Z_Construct_UClass_UEvadeAction, UEvadeAction::StaticClass, TEXT("UEvadeAction"), &Z_Registration_Info_UClass_UEvadeAction, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(UEvadeAction), 2889057739U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Fabians_AI_Component_EvadeAction_h_3453225796(TEXT("/Script/AGP"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Fabians_AI_Component_EvadeAction_h_2840704726(TEXT("/Script/AGP"),
 		Z_CompiledInDeferFile_FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Fabians_AI_Component_EvadeAction_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Fabians_AI_Component_EvadeAction_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
