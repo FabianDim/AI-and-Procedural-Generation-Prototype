@@ -7,11 +7,12 @@
 			"files": [
 				"C:/Repos/A4-Repository/A4 Starting Point/AGP/Content/Blueprints/BP_PlayerCharacter.uasset",
 				"C:/Users/byrne/OneDrive/Desktop/Gamedev/A4-Repository/A4 Starting Point/AGP/Content/Blueprints/JaysPCG/BP_CoverSpawner.uasset",
-				"C:/Users/byrne/OneDrive/Desktop/Gamedev/A4-Repository/A4 Starting Point/AGP/Content/Blueprints/BP_CoverSpawner.uasset",
-				"C:/Users/byrne/OneDrive/Desktop/Gamedev/A4-Repository/A4 Starting Point/AGP/Content/Blueprints/BP_EnemySpawner.uasset",
 				"C:/Users/byrne/OneDrive/Desktop/Gamedev/A4-Repository/A4 Starting Point/AGP/Content/Blueprints/JaysPCG/Cube_Blueprint.uasset",
 				"C:/Users/byrne/OneDrive/Desktop/Gamedev/A4-Repository/A4 Starting Point/AGP/Content/Blueprints/Cube_Blueprint.uasset",
-				"C:/Users/byrne/OneDrive/Desktop/Gamedev/A4-Repository/A4 Starting Point/AGP/Content/Levels/MultiplayerMap.umap"
+				"C:/Users/byrne/OneDrive/Desktop/Gamedev/A4-Repository/A4 Starting Point/AGP/Content/Levels/MultiplayerMap.umap",
+				"C:/Users/byrne/OneDrive/Desktop/Gamedev/A4-Repository/A4 Starting Point/AGP/Content/Blueprints/JaysPCG/BP_EnemySpawner.uasset",
+				"C:/Users/byrne/OneDrive/Desktop/Gamedev/A4-Repository/A4 Starting Point/AGP/Content/Blueprints/BP_CoverSpawner.uasset",
+				"C:/Users/byrne/OneDrive/Desktop/Gamedev/A4-Repository/A4 Starting Point/AGP/Content/Blueprints/BP_EnemySpawner.uasset"
 			]
 		}
 	]
