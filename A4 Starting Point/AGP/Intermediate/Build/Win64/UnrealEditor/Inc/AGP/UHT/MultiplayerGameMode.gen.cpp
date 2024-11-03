@@ -9,6 +9,7 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeMultiplayerGameMode() {}
 // Cross Module References
+	AGP_API UClass* Z_Construct_UClass_AEnemyCharacter_NoRegister();
 	AGP_API UClass* Z_Construct_UClass_AMultiplayerGameMode();
 	AGP_API UClass* Z_Construct_UClass_AMultiplayerGameMode_NoRegister();
 	AGP_API UClass* Z_Construct_UClass_APlayerCharacter_NoRegister();
@@ -34,6 +35,10 @@ void EmptyLinkFunctionForGeneratedCodeMultiplayerGameMode() {}
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_PlayerCharacterClass_MetaData[];
 #endif
 		static const UECodeGen_Private::FClassPropertyParams NewProp_PlayerCharacterClass;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_EnemyCharacterClass_MetaData[];
+#endif
+		static const UECodeGen_Private::FClassPropertyParams NewProp_EnemyCharacterClass;
 		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UECodeGen_Private::FClassParams ClassParams;
@@ -58,8 +63,16 @@ void EmptyLinkFunctionForGeneratedCodeMultiplayerGameMode() {}
 	};
 #endif
 	const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_AMultiplayerGameMode_Statics::NewProp_PlayerCharacterClass = { "PlayerCharacterClass", nullptr, (EPropertyFlags)0x0024080000010001, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(AMultiplayerGameMode, PlayerCharacterClass), Z_Construct_UClass_UClass, Z_Construct_UClass_APlayerCharacter_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMultiplayerGameMode_Statics::NewProp_PlayerCharacterClass_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMultiplayerGameMode_Statics::NewProp_PlayerCharacterClass_MetaData)) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMultiplayerGameMode_Statics::NewProp_EnemyCharacterClass_MetaData[] = {
+		{ "Category", "MultiplayerGameMode" },
+		{ "ModuleRelativePath", "MultiplayerGameMode.h" },
+	};
+#endif
+	const UECodeGen_Private::FClassPropertyParams Z_Construct_UClass_AMultiplayerGameMode_Statics::NewProp_EnemyCharacterClass = { "EnemyCharacterClass", nullptr, (EPropertyFlags)0x0024080000010001, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(AMultiplayerGameMode, EnemyCharacterClass), Z_Construct_UClass_UClass, Z_Construct_UClass_AEnemyCharacter_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMultiplayerGameMode_Statics::NewProp_EnemyCharacterClass_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMultiplayerGameMode_Statics::NewProp_EnemyCharacterClass_MetaData)) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AMultiplayerGameMode_Statics::PropPointers[] = {
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMultiplayerGameMode_Statics::NewProp_PlayerCharacterClass,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMultiplayerGameMode_Statics::NewProp_EnemyCharacterClass,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AMultiplayerGameMode_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AMultiplayerGameMode>::IsAbstract,
@@ -94,15 +107,15 @@ void EmptyLinkFunctionForGeneratedCodeMultiplayerGameMode() {}
 	AMultiplayerGameMode::AMultiplayerGameMode(const FObjectInitializer& ObjectInitializer) : Super(ObjectInitializer) {}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AMultiplayerGameMode);
 	AMultiplayerGameMode::~AMultiplayerGameMode() {}
-	struct Z_CompiledInDeferFile_FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_MultiplayerGameMode_h_Statics
+	struct Z_CompiledInDeferFile_FID_AGP_Source_AGP_MultiplayerGameMode_h_Statics
 	{
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_MultiplayerGameMode_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AMultiplayerGameMode, AMultiplayerGameMode::StaticClass, TEXT("AMultiplayerGameMode"), &Z_Registration_Info_UClass_AMultiplayerGameMode, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMultiplayerGameMode), 216408129U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AGP_Source_AGP_MultiplayerGameMode_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_AMultiplayerGameMode, AMultiplayerGameMode::StaticClass, TEXT("AMultiplayerGameMode"), &Z_Registration_Info_UClass_AMultiplayerGameMode, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AMultiplayerGameMode), 1361678267U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_MultiplayerGameMode_h_1771877802(TEXT("/Script/AGP"),
-		Z_CompiledInDeferFile_FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_MultiplayerGameMode_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_MultiplayerGameMode_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AGP_Source_AGP_MultiplayerGameMode_h_140009088(TEXT("/Script/AGP"),
+		Z_CompiledInDeferFile_FID_AGP_Source_AGP_MultiplayerGameMode_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AGP_Source_AGP_MultiplayerGameMode_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
