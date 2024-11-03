@@ -63,6 +63,12 @@
     <ClInclude Include="..\..\Source\AGP\AGPGameModeBase.h">
       <Filter>Source\AGP</Filter>
     </ClInclude>
+    <ClCompile Include="..\..\Source\AGP\EnemySpawner.cpp">
+      <Filter>Source\AGP</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\AGP\EnemySpawner.h">
+      <Filter>Source\AGP</Filter>
+    </ClInclude>
     <ClCompile Include="..\..\Source\AGP\MultiplayerGameMode.cpp">
       <Filter>Source\AGP</Filter>
     </ClCompile>

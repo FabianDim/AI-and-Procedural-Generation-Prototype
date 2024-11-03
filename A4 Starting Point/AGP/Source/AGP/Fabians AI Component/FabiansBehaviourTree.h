@@ -27,6 +27,8 @@ class AGP_API UFabiansBehaviourTree : public UObject
 
 	void BeginPlay();
 
+
+	friend class AEnemySpawner;
 protected:
 
 	UFabiansBehaviourTree(const FObjectInitializer& ObjectInitializer);

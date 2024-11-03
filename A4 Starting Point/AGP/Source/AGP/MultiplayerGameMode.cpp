@@ -1,9 +1,8 @@
 #include "MultiplayerGameMode.h"
-<<<<<<< HEAD
-=======
+
+#include <Kismet/GameplayStatics.h>
 
 #include "Characters/EnemyCharacter.h"
->>>>>>> MapDevelopment
 #include "Characters/PlayerCharacter.h"
 #include "Characters/EnemyCharacter.h" // Include your enemy character header
 #include "Characters/HealthComponent.h"
@@ -26,7 +25,6 @@ void AMultiplayerGameMode::RespawnPlayer(AController* Controller)
 	}
 }
 
-<<<<<<< HEAD
 void AMultiplayerGameMode::RespawnEnemy(AEnemyCharacter* Enemy)
 {
 	if (Enemy)
@@ -45,7 +43,7 @@ void AMultiplayerGameMode::RespawnEnemy(AEnemyCharacter* Enemy)
 		Enemy->Destroy();
 	}
 }
-=======
+
 /*void AMultiplayerGameMode::RespawnNPC(AEnemyCharacter* DeadEnemy)
 {
 	if (DeadEnemy)
@@ -105,4 +103,3 @@ void AMultiplayerGameMode::SpawnNPCAtLocation(TSubclassOf<AEnemyCharacter> NPCCl
 		}
 	}
 }*/
->>>>>>> MapDevelopment

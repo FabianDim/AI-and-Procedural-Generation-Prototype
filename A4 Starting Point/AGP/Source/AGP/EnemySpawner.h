@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Fabians AI Component/FabiansBehaviourTree.h"
 #include "GameFramework/Actor.h"
 #include "EnemySpawner.generated.h"
 
@@ -10,7 +11,7 @@ UCLASS()
 class AGP_API AEnemySpawner : public AActor
 {
 	GENERATED_BODY()
-
+friend class AEnemyCharacter;
 public:
 	AEnemySpawner();
 
@@ -38,4 +39,6 @@ public:
 	// Time interval for spawning enemies
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Spawning")
 	float SpawnInterval = 20.0f; // 20 seconds
+
+	UFabiansBehaviourTree* BehaviourTree;
 };

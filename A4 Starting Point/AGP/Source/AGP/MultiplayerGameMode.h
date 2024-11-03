@@ -18,12 +18,9 @@ class AGP_API AMultiplayerGameMode : public AGameMode
 
 public:
 	void RespawnPlayer(AController* Controller);
-<<<<<<< HEAD
 	void RespawnEnemy(AEnemyCharacter* Enemy); // Add this line for enemy respawn
-=======
 	void RespawnNPC(AEnemyCharacter* DeadEnemy);
 	void SpawnNPCAtLocation(TSubclassOf<AEnemyCharacter> NPCClass, FVector SpawnLocation, FRotator SpawnRotation);
->>>>>>> MapDevelopment
 
 protected:
 	UPROPERTY(EditDefaultsOnly)
