@@ -22,6 +22,11 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Cover")
 	bool bIsOccupied = false;
 
+	// Whether this cover node is valid for AI
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Cover")
+	bool bIsValidCover = true;
+
 private:
 	void DrawDebugCoverNode();
+	void CheckForEnemy();
 };
