@@ -48,6 +48,9 @@ public:
 	AEnemyCharacter();
 	void GetTickPatrol();
 	void GetTickEngage();
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Audio")
+	USoundBase* DeathSound;
+	
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

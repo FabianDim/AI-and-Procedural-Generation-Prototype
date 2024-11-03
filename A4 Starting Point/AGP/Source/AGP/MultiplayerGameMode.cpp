@@ -25,27 +25,17 @@ void AMultiplayerGameMode::RespawnEnemy(AEnemyCharacter* Enemy)
 {
 	if (Enemy)
 	{
+		// Store the location and rotation of the enemy
 		FVector SpawnLocation = Enemy->GetActorLocation();
 		FRotator SpawnRotation = Enemy->GetActorRotation();
 
-		// Store the class type of the enemy
-		TSubclassOf<AEnemyCharacter> EnemyClass = Enemy->GetClass();
+		// Play the death sound
+		if (Enemy->DeathSound) 
+		{
+			UGameplayStatics::PlaySoundAtLocation(this, Enemy->DeathSound, SpawnLocation);
+		}
 
 		// Destroy the current enemy
 		Enemy->Destroy();
-
-		// Spawn a new enemy at the original location
-		if (EnemyCharacterClass)
-		{
-			AEnemyCharacter* NewEnemy = GetWorld()->SpawnActor<AEnemyCharacter>(EnemyCharacterClass, SpawnLocation, SpawnRotation);
-			if (NewEnemy)
-			{
-				// Reset the health of the new enemy
-				if (UHealthComponent* HealthComp = NewEnemy->FindComponentByClass<UHealthComponent>())
-				{
-					HealthComp->ResetHealth();
-				}
-			}
-		}
 	}
 }
