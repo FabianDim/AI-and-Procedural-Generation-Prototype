@@ -14,12 +14,12 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define AGP_WeaponPickup_generated_h
 
-#define FID_AGP_Source_AGP_Pickups_WeaponPickup_h_25_SPARSE_DATA
-#define FID_AGP_Source_AGP_Pickups_WeaponPickup_h_25_RPC_WRAPPERS
-#define FID_AGP_Source_AGP_Pickups_WeaponPickup_h_25_RPC_WRAPPERS_NO_PURE_DECLS
-#define FID_AGP_Source_AGP_Pickups_WeaponPickup_h_25_ACCESSORS
-#define FID_AGP_Source_AGP_Pickups_WeaponPickup_h_25_CALLBACK_WRAPPERS
-#define FID_AGP_Source_AGP_Pickups_WeaponPickup_h_25_INCLASS_NO_PURE_DECLS \
+#define FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Pickups_WeaponPickup_h_25_SPARSE_DATA
+#define FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Pickups_WeaponPickup_h_25_RPC_WRAPPERS
+#define FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Pickups_WeaponPickup_h_25_RPC_WRAPPERS_NO_PURE_DECLS
+#define FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Pickups_WeaponPickup_h_25_ACCESSORS
+#define FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Pickups_WeaponPickup_h_25_CALLBACK_WRAPPERS
+#define FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Pickups_WeaponPickup_h_25_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAWeaponPickup(); \
 	friend struct Z_Construct_UClass_AWeaponPickup_Statics; \
@@ -35,7 +35,7 @@ public: \
 	NO_API virtual void ValidateGeneratedRepEnums(const TArray<struct FRepRecord>& ClassReps) const override;
 
 
-#define FID_AGP_Source_AGP_Pickups_WeaponPickup_h_25_INCLASS \
+#define FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Pickups_WeaponPickup_h_25_INCLASS \
 private: \
 	static void StaticRegisterNativesAWeaponPickup(); \
 	friend struct Z_Construct_UClass_AWeaponPickup_Statics; \
@@ -51,7 +51,7 @@ public: \
 	NO_API virtual void ValidateGeneratedRepEnums(const TArray<struct FRepRecord>& ClassReps) const override;
 
 
-#define FID_AGP_Source_AGP_Pickups_WeaponPickup_h_25_STANDARD_CONSTRUCTORS \
+#define FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Pickups_WeaponPickup_h_25_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AWeaponPickup(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AWeaponPickup) \
@@ -65,7 +65,7 @@ public: \
 	NO_API virtual ~AWeaponPickup();
 
 
-#define FID_AGP_Source_AGP_Pickups_WeaponPickup_h_25_ENHANCED_CONSTRUCTORS \
+#define FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Pickups_WeaponPickup_h_25_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AWeaponPickup(); \
 private: \
@@ -79,29 +79,29 @@ public: \
 	NO_API virtual ~AWeaponPickup();
 
 
-#define FID_AGP_Source_AGP_Pickups_WeaponPickup_h_22_PROLOG
-#define FID_AGP_Source_AGP_Pickups_WeaponPickup_h_25_GENERATED_BODY_LEGACY \
+#define FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Pickups_WeaponPickup_h_22_PROLOG
+#define FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Pickups_WeaponPickup_h_25_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_AGP_Source_AGP_Pickups_WeaponPickup_h_25_SPARSE_DATA \
-	FID_AGP_Source_AGP_Pickups_WeaponPickup_h_25_RPC_WRAPPERS \
-	FID_AGP_Source_AGP_Pickups_WeaponPickup_h_25_ACCESSORS \
-	FID_AGP_Source_AGP_Pickups_WeaponPickup_h_25_CALLBACK_WRAPPERS \
-	FID_AGP_Source_AGP_Pickups_WeaponPickup_h_25_INCLASS \
-	FID_AGP_Source_AGP_Pickups_WeaponPickup_h_25_STANDARD_CONSTRUCTORS \
+	FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Pickups_WeaponPickup_h_25_SPARSE_DATA \
+	FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Pickups_WeaponPickup_h_25_RPC_WRAPPERS \
+	FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Pickups_WeaponPickup_h_25_ACCESSORS \
+	FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Pickups_WeaponPickup_h_25_CALLBACK_WRAPPERS \
+	FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Pickups_WeaponPickup_h_25_INCLASS \
+	FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Pickups_WeaponPickup_h_25_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define FID_AGP_Source_AGP_Pickups_WeaponPickup_h_25_GENERATED_BODY \
+#define FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Pickups_WeaponPickup_h_25_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	FID_AGP_Source_AGP_Pickups_WeaponPickup_h_25_SPARSE_DATA \
-	FID_AGP_Source_AGP_Pickups_WeaponPickup_h_25_RPC_WRAPPERS_NO_PURE_DECLS \
-	FID_AGP_Source_AGP_Pickups_WeaponPickup_h_25_ACCESSORS \
-	FID_AGP_Source_AGP_Pickups_WeaponPickup_h_25_CALLBACK_WRAPPERS \
-	FID_AGP_Source_AGP_Pickups_WeaponPickup_h_25_INCLASS_NO_PURE_DECLS \
-	FID_AGP_Source_AGP_Pickups_WeaponPickup_h_25_ENHANCED_CONSTRUCTORS \
+	FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Pickups_WeaponPickup_h_25_SPARSE_DATA \
+	FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Pickups_WeaponPickup_h_25_RPC_WRAPPERS_NO_PURE_DECLS \
+	FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Pickups_WeaponPickup_h_25_ACCESSORS \
+	FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Pickups_WeaponPickup_h_25_CALLBACK_WRAPPERS \
+	FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Pickups_WeaponPickup_h_25_INCLASS_NO_PURE_DECLS \
+	FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Pickups_WeaponPickup_h_25_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -109,7 +109,7 @@ PRAGMA_ENABLE_DEPRECATION_WARNINGS
 template<> AGP_API UClass* StaticClass<class AWeaponPickup>();
 
 #undef CURRENT_FILE_ID
-#define CURRENT_FILE_ID FID_AGP_Source_AGP_Pickups_WeaponPickup_h
+#define CURRENT_FILE_ID FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Pickups_WeaponPickup_h
 
 
 #define FOREACH_ENUM_EWEAPONRARITY(op) \
