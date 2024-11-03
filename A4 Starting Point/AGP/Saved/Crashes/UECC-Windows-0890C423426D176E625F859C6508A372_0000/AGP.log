@@ -1536,22 +1536,3 @@ LogConfig: Set CVar [[r.Shadow.DetectVertexShaderLayerAtRuntime:1]]
 [2024.11.03-05.44.42:206][100]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/BP_EnemySpawner.BP_EnemySpawner
 [2024.11.03-05.44.42:241][100]LogWorldSubsystemInput: UEnhancedInputDeveloperSettings::bEnableWorldSubsystem is false, the world subsystem will not be created!
 [2024.11.03-05.44.42:241][100]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
-[2024.11.03-05.44.44:206][100]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' exceeded budget of 2.000000s, reporting...
-[2024.11.03-05.44.56:709][100]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' report submitted, and took 0.049870s
-[2024.11.03-05.44.56:722][100]LogAudioMixer: Warning: AudioMixerPlatformInterface Timeout [12011ms] waiting for h/w. InstanceID=1
-[2024.11.03-05.45.01:797][100]LogStall: Stall detector 'UAssetEditorSubsystem::OpenEditorForAsset' complete in 0.006926s (5.137315s overbudget)
-[2024.11.03-05.45.01:847][100]LogAudioMixer: Display: FMixerNullCallback: Simulating a h/w device callback at [21ms], ThreadID=13660
-[2024.11.03-05.45.02:098][100]LogViewport: Scene viewport resized to 587x684, mode Windowed.
-[2024.11.03-05.45.02:427][101]LogAudioMixer: Display: Successful Swap new Device is (NumChannels=2, SampleRate=48000, DeviceID={0.0.0.00000000}.{749e9da9-5ca4-4990-be2e-2ef27f3b7033}, Name=Speakers (Razer Barracuda X 2.4)), Reason=AudioMixerPlatformInterface. Timeout waiting for h/w., InstanceID=1, DurationMS=116.59
-[2024.11.03-05.45.02:438][101]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=1
-[2024.11.03-05.45.02:444][101]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=1
-[2024.11.03-05.46.18:274][369]LogViewport: Scene viewport resized to 1141x867, mode Windowed.
-[2024.11.03-05.46.28:951][101]BlueprintLog: New page: Compile BP_EnemySpawner
-[2024.11.03-05.46.29:002][101]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
-[2024.11.03-05.46.29:491][127]LogFileHelpers: InternalPromptForCheckoutAndSave started...
-[2024.11.03-05.46.29:518][127]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/BP_EnemySpawner" FILE="C:/Users/byrne/OneDrive/Desktop/Gamedev/A4-Repository/A4 Starting Point/AGP/Content/Blueprints/BP_EnemySpawner.uasset" SILENT=true
-[2024.11.03-05.46.29:542][127]LogSavePackage: Moving output files for package: /Game/Blueprints/BP_EnemySpawner
-[2024.11.03-05.46.29:542][127]LogSavePackage: Moving 'C:/Users/byrne/OneDrive/Desktop/Gamedev/A4-Repository/A4 Starting Point/AGP/Saved/BP_EnemySpawner81E16C004532508471D44386C83A188B.tmp' to 'C:/Users/byrne/OneDrive/Desktop/Gamedev/A4-Repository/A4 Starting Point/AGP/Content/Blueprints/BP_EnemySpawner.uasset'
-[2024.11.03-05.46.29:552][127]LogFileHelpers: InternalPromptForCheckoutAndSave took 60 ms (total: 1.76 sec)
-[2024.11.03-05.46.29:557][127]AssetCheck: New page: Asset Save: BP_EnemySpawner
-[2024.11.03-05.46.29:558][127]LogContentValidation: Display: Validating /Script/Engine.Blueprint /Game/Blueprints/BP_EnemySpawner.BP_EnemySpawner
