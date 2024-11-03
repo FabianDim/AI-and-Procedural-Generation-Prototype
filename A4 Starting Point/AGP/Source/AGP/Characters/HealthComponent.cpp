@@ -93,6 +93,10 @@ void UHealthComponent::OnDeath()
 			}
 		}
 	}
+	/*else if(AEnemyCharacter* EnemyCharacter = Cast<AEnemyCharacter>(GetOwner()))
+	{
+		EnemyCharacter->OnDeath();
+	}*/
 }
 
 void UHealthComponent::UpdateHealthBar()

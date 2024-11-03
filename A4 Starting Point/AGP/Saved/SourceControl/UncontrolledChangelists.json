@@ -5,6 +5,18 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+<<<<<<< HEAD
+=======
+				"C:/Repos/A4-Repository/A4 Starting Point/AGP/Content/Levels/MultiplayerMap.umap",
+				"C:/Repos/A4-Repository/A4 Starting Point/AGP/Content/MinimapMaterial.uasset",
+				"C:/Repos/A4-Repository/A4 Starting Point/AGP/Content/Blueprints/BP_PlayerCharacter.uasset",
+				"C:/Repos/A4-Repository/A4 Starting Point/AGP/Content/Blueprints/Ui/Minimap_UI.uasset",
+				"C:/Repos/A4-Repository/A4 Starting Point/AGP/Content/MinimapTarget2D.uasset",
+				"C:/Repos/A4-Repository/A4 Starting Point/AGP/Content/Textures/arrow.uasset",
+				"C:/Repos/A4-Repository/A4 Starting Point/AGP/Content/Textures/arrow_Sprite.uasset",
+				"C:/Repos/A4-Repository/A4 Starting Point/AGP/Content/Blueprints/BP_EnemyCharacter.uasset",
+				"C:/Repos/A4-Repository/A4 Starting Point/AGP/Content/Blueprints/Ui/BP_PlayerCharacterHUD.uasset",
+>>>>>>> MapDevelopment
 				"C:/Users/byrne/OneDrive/Desktop/Gamedev/A4-Repository/A4 Starting Point/AGP/Content/Levels/MultiplayerMap.umap",
 				"C:/Users/byrne/OneDrive/Desktop/Gamedev/A4-Repository/A4 Starting Point/AGP/Content/Audio/BGM_cue.uasset",
 				"C:/Users/byrne/OneDrive/Desktop/Gamedev/A4-Repository/A4 Starting Point/AGP/Content/Blueprints/GameManagers/BP_MultiplayerGameMode.uasset",

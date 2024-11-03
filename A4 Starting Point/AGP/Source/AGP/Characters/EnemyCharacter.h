@@ -41,16 +41,25 @@ class AGP_API AEnemyCharacter : public ABaseCharacter
 	friend class UPlayerNotDetectedCondition;
 	friend class UEvadeAction;
 	friend class UHealthCondition;
+<<<<<<< HEAD
 	friend class UCoverNodeComponent;
 	friend class UMoveToCoverAction;
+=======
+	friend class MultiplayerGameMode;
+>>>>>>> MapDevelopment
 public:
 	// Sets default values for this character's properties
 	AEnemyCharacter();
 	void GetTickPatrol();
 	void GetTickEngage();
+<<<<<<< HEAD
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Audio")
 	USoundBase* DeathSound;
 	
+=======
+	void OnDeath();
+
+>>>>>>> MapDevelopment
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;

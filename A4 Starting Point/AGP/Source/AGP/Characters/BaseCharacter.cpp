@@ -51,7 +51,8 @@ void ABaseCharacter::OnDeath()
 {
 	// WE ONLY WANT TO HANDLE LOGIC IF IT IS ON THE SERVER
 	if (GetLocalRole() != ROLE_Authority) return;
-	
+	AEnemyCharacter* EnemyCharacter = Cast<AEnemyCharacter>(GetOwner());
+
 	if
 	(APlayerCharacter* PlayerCharacter = Cast<APlayerCharacter>(this))
 	{
@@ -60,6 +61,7 @@ void ABaseCharacter::OnDeath()
 		{
 			// Tell the GameMode to respawn this player.
 			GameMode->RespawnPlayer(GetController());
+			/*GameMode->RespawnNPC(EnemyCharacter);*/
 		}
 	}
 }
