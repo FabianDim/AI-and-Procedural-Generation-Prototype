@@ -23,6 +23,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 	AIMODULE_API UClass* Z_Construct_UClass_UPawnSensingComponent_NoRegister();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	ENGINE_API UClass* Z_Construct_UClass_APawn_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_USoundBase_NoRegister();
 	UPackage* Z_Construct_UPackage__Script_AGP();
 // End Cross Module References
 	static FEnumRegistrationInfo Z_Registration_Info_UEnum_EEnemyState;
@@ -145,6 +146,10 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 		static const UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_DeathSound_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_DeathSound;
+#if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_PathfindingSubsystem_MetaData[];
 #endif
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_PathfindingSubsystem;
@@ -210,6 +215,13 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 		{ "ToolTip", "A class representing the logic for an AI controlled enemy character." },
 	};
 #endif
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_DeathSound_MetaData[] = {
+		{ "Category", "Audio" },
+		{ "ModuleRelativePath", "Characters/EnemyCharacter.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_DeathSound = { "DeathSound", nullptr, (EPropertyFlags)0x0010000000000005, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(AEnemyCharacter, DeathSound), Z_Construct_UClass_USoundBase_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_DeathSound_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_DeathSound_MetaData)) };
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_PathfindingSubsystem_MetaData[] = {
 		{ "Comment", "/**\n\x09 * A pointer to the Pathfinding Subsystem.\n\x09 */" },
@@ -298,6 +310,7 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_PickupManagerSubsystem = { "PickupManagerSubsystem", nullptr, (EPropertyFlags)0x0040000000000000, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(AEnemyCharacter, PickupManagerSubsystem), Z_Construct_UClass_UPickupManagerSubsystem_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_PickupManagerSubsystem_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_PickupManagerSubsystem_MetaData)) };
 	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AEnemyCharacter_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_DeathSound,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_PathfindingSubsystem,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_PawnSensingComponent,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_SensedCharacter,
@@ -344,19 +357,19 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 	}
 	DEFINE_VTABLE_PTR_HELPER_CTOR(AEnemyCharacter);
 	AEnemyCharacter::~AEnemyCharacter() {}
-	struct Z_CompiledInDeferFile_FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Characters_EnemyCharacter_h_Statics
+	struct Z_CompiledInDeferFile_FID_AGP_Source_AGP_Characters_EnemyCharacter_h_Statics
 	{
 		static const FEnumRegisterCompiledInInfo EnumInfo[];
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
-	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Characters_EnemyCharacter_h_Statics::EnumInfo[] = {
+	const FEnumRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AGP_Source_AGP_Characters_EnemyCharacter_h_Statics::EnumInfo[] = {
 		{ EEnemyState_StaticEnum, TEXT("EEnemyState"), &Z_Registration_Info_UEnum_EEnemyState, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2484316000U) },
 	};
-	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Characters_EnemyCharacter_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AEnemyCharacter, AEnemyCharacter::StaticClass, TEXT("AEnemyCharacter"), &Z_Registration_Info_UClass_AEnemyCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AEnemyCharacter), 3443050412U) },
+	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AGP_Source_AGP_Characters_EnemyCharacter_h_Statics::ClassInfo[] = {
+		{ Z_Construct_UClass_AEnemyCharacter, AEnemyCharacter::StaticClass, TEXT("AEnemyCharacter"), &Z_Registration_Info_UClass_AEnemyCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AEnemyCharacter), 1367667535U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Characters_EnemyCharacter_h_73659402(TEXT("/Script/AGP"),
-		Z_CompiledInDeferFile_FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Characters_EnemyCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Characters_EnemyCharacter_h_Statics::ClassInfo),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_AGP_Source_AGP_Characters_EnemyCharacter_h_580469933(TEXT("/Script/AGP"),
+		Z_CompiledInDeferFile_FID_AGP_Source_AGP_Characters_EnemyCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AGP_Source_AGP_Characters_EnemyCharacter_h_Statics::ClassInfo),
 		nullptr, 0,
-		Z_CompiledInDeferFile_FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Characters_EnemyCharacter_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Characters_EnemyCharacter_h_Statics::EnumInfo));
+		Z_CompiledInDeferFile_FID_AGP_Source_AGP_Characters_EnemyCharacter_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_AGP_Source_AGP_Characters_EnemyCharacter_h_Statics::EnumInfo));
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
