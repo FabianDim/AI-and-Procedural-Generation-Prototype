@@ -21609,3 +21609,54 @@ Reload Time:   3.387768
 [2024.11.03-04.35.36:495][513]LogPackageName: Warning: DoesPackageExist called on PackageName that will always return false. Reason: Input '' was empty.
 [2024.11.03-04.35.36:507][514]LogEditorBookmarks: Warning: FBookmarkTypeToolsImpl::JumpToBookmark - Null Bookmark at index 1
 [2024.11.03-04.35.36:508][514]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2024.11.03-04.36.23:988][796]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.03-04.36.24:052][796]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
+[2024.11.03-04.36.24:143][796]LogSavePackage: Moving output files for package: /Game/Levels/MultiplayerMap
+[2024.11.03-04.36.24:144][796]LogSavePackage: Moving 'C:/Users/byrne/OneDrive/Desktop/Gamedev/A4-Repository/A4 Starting Point/AGP/Saved/MultiplayerMap27C954914F46B8C14D43F88078A5A2F5.tmp' to 'C:/Users/byrne/OneDrive/Desktop/Gamedev/A4-Repository/A4 Starting Point/AGP/Content/Levels/MultiplayerMap.umap'
+[2024.11.03-04.36.24:161][796]LogFileHelpers: Saving map 'MultiplayerMap' took 0.143
+[2024.11.03-04.36.24:167][796]LogFileHelpers: InternalPromptForCheckoutAndSave took 178 ms (total: 372 ms)
+[2024.11.03-04.36.24:175][796]AssetCheck: New page: Asset Save: MultiplayerMap
+[2024.11.03-04.36.24:175][796]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/MultiplayerMap.MultiplayerMap
+[2024.11.03-04.40.56:435][781]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2024.11.03-04.40.56:480][781]LogUObjectHash: Compacting FUObjectHashTables data took   0.68ms
+[2024.11.03-04.40.56:571][781]LogSavePackage: Moving output files for package: /Game/Levels/MultiplayerMap
+[2024.11.03-04.40.56:572][781]LogSavePackage: Moving 'C:/Users/byrne/OneDrive/Desktop/Gamedev/A4-Repository/A4 Starting Point/AGP/Saved/MultiplayerMap286E58CA4CA14C954D3A1D8FA2138497.tmp' to 'C:/Users/byrne/OneDrive/Desktop/Gamedev/A4-Repository/A4 Starting Point/AGP/Content/Levels/MultiplayerMap.umap'
+[2024.11.03-04.40.56:578][781]LogFileHelpers: Saving map 'MultiplayerMap' took 0.120
+[2024.11.03-04.40.56:585][781]LogFileHelpers: InternalPromptForCheckoutAndSave took 149 ms (total: 522 ms)
+[2024.11.03-04.40.56:591][781]AssetCheck: New page: Asset Save: MultiplayerMap
+[2024.11.03-04.40.56:591][781]LogContentValidation: Display: Validating /Script/Engine.World /Game/Levels/MultiplayerMap.MultiplayerMap
+[2024.11.03-04.40.57:621][902]Candidate modules for hot reload:
+[2024.11.03-04.40.57:621][902]  AGP
+[2024.11.03-04.40.57:627][902]Launching UnrealBuildTool... [D:/Unreal/UE_5.2/Engine/Build/BatchFiles/Build.bat  -ModuleWithSuffix=AGP,8737 AGPEditor Win64 Development -Project="C:/Users/byrne/OneDrive/Desktop/Gamedev/A4-Repository/A4 Starting Point/AGP/AGP.uproject" "C:/Users/byrne/OneDrive/Desktop/Gamedev/A4-Repository/A4 Starting Point/AGP/AGP.uproject"  -IgnoreJunk]
+[2024.11.03-04.40.57:633][902]Warning: Starting HotReload took  0.0s.
+[2024.11.03-04.41.10:984][ 98]CompilerResultsLog: New page: Compilation - 4 Nov 2024, 2:41:10 am
+[2024.11.03-04.41.10:984][ 98]CompilerResultsLog: Using bundled DotNet SDK version: 6.0.302
+[2024.11.03-04.41.10:984][ 98]CompilerResultsLog: Running UnrealBuildTool: dotnet "..\..\Engine\Binaries\DotNET\UnrealBuildTool\UnrealBuildTool.dll" -ModuleWithSuffix=AGP,8737 AGPEditor Win64 Development -Project="C:/Users/byrne/OneDrive/Desktop/Gamedev/A4-Repository/A4 Starting Point/AGP/AGP.uproject" "C:/Users/byrne/OneDrive/Desktop/Gamedev/A4-Repository/A4 Starting Point/AGP/AGP.uproject"  -IgnoreJunk
+[2024.11.03-04.41.10:984][ 98]CompilerResultsLog: Log file: C:\Users\byrne\AppData\Local\UnrealBuildTool\Log.txt
+[2024.11.03-04.41.10:984][ 98]CompilerResultsLog: Building AGPEditor...
+[2024.11.03-04.41.10:984][ 98]CompilerResultsLog: Using Visual Studio 2022 14.34.31948 toolchain (C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.34.31933) and Windows 10.0.22621.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2024.11.03-04.41.10:984][ 98]CompilerResultsLog: [Upgrade]
+[2024.11.03-04.41.10:984][ 98]CompilerResultsLog: [Upgrade] Using backward-compatible include order. The latest version of UE has changed the order of includes, which may require code changes. The current setting is:
+[2024.11.03-04.41.10:984][ 98]CompilerResultsLog: [Upgrade]     IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_1
+[2024.11.03-04.41.10:984][ 98]CompilerResultsLog: [Upgrade] Suppress this message by setting 'IncludeOrderVersion = EngineIncludeOrderVersion.Unreal5_2;' in AGPEditor.Target.cs.
+[2024.11.03-04.41.10:984][ 98]CompilerResultsLog: [Upgrade] Alternatively you can set this to 'EngineIncludeOrderVersion.Latest' to always use the latest include order. This will potentially cause compile errors when integrating new versions of the engine.
+[2024.11.03-04.41.10:984][ 98]CompilerResultsLog: [Upgrade]
+[2024.11.03-04.41.10:984][ 98]CompilerResultsLog: Determining max actions to execute in parallel (6 physical cores, 6 logical cores)
+[2024.11.03-04.41.10:985][ 98]CompilerResultsLog:   Executing up to 6 processes, one per physical core
+[2024.11.03-04.41.10:985][ 98]CompilerResultsLog:   Requested 1.5 GB free memory per action, 3.03 GB available: limiting max parallel actions to 2
+[2024.11.03-04.41.10:985][ 98]CompilerResultsLog: Building 4 actions with 2 processes...
+[2024.11.03-04.41.10:985][ 98]CompilerResultsLog: [1/4] Compile [x64] Module.AGP.cpp
+[2024.11.03-04.41.10:985][ 98]CompilerResultsLog: C:\Users\byrne\OneDrive\Desktop\Gamedev\A4-Repository\A4 Starting Point\AGP\Source\AGP\Fabians AI Component\FabiansBehaviourTree.h(44): warning C5038: data member 'UFabiansBehaviourTree::BehaviorComponent' will be initialized after data member 'UFabiansBehaviourTree::CurrentStatus'
+[2024.11.03-04.41.10:985][ 98]CompilerResultsLog: C:\Users\byrne\OneDrive\Desktop\Gamedev\A4-Repository\A4 Starting Point\AGP\Source\AGP\Fabians AI Component\FabiansBehaviourTree.cpp(16): warning C5038: data member 'UFabiansBehaviourTree::BehaviorComponent' will be initialized after data member 'UFabiansBehaviourTree::CurrentStatus'
+[2024.11.03-04.41.10:985][ 98]CompilerResultsLog: [2/4] Link [x64] UnrealEditor-AGP-8737.lib
+[2024.11.03-04.41.10:985][ 98]CompilerResultsLog:    Creating library C:\Users\byrne\OneDrive\Desktop\Gamedev\A4-Repository\A4 Starting Point\AGP\Intermediate\Build\Win64\x64\UnrealEditor\Development\AGP\UnrealEditor-AGP-8737.lib and object C:\Users\byrne\OneDrive\Desktop\Gamedev\A4-Repository\A4 Starting Point\AGP\Intermediate\Build\Win64\x64\UnrealEditor\Development\AGP\UnrealEditor-AGP-8737.exp
+[2024.11.03-04.41.10:985][ 98]CompilerResultsLog: [3/4] Link [x64] UnrealEditor-AGP-8737.dll
+[2024.11.03-04.41.10:985][ 98]CompilerResultsLog:    Creating library C:\Users\byrne\OneDrive\Desktop\Gamedev\A4-Repository\A4 Starting Point\AGP\Intermediate\Build\Win64\x64\UnrealEditor\Development\AGP\UnrealEditor-AGP-8737.suppressed.lib and object C:\Users\byrne\OneDrive\Desktop\Gamedev\A4-Repository\A4 Starting Point\AGP\Intermediate\Build\Win64\x64\UnrealEditor\Development\AGP\UnrealEditor-AGP-8737.suppressed.exp
+[2024.11.03-04.41.10:985][ 98]CompilerResultsLog: [4/4] WriteMetadata AGPEditor.target
+[2024.11.03-04.41.10:985][ 98]CompilerResultsLog: Total time in Parallel executor: 10.44 seconds
+[2024.11.03-04.41.10:985][ 98]CompilerResultsLog: Total execution time: 12.88 seconds
+[2024.11.03-04.41.10:985][ 98]LogMainFrame: MainFrame: Module compiling took 13.373 seconds
+[2024.11.03-04.41.11:007][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2024.11.03-04.41.11:304][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   1.27ms
+[2024.11.03-04.41.11:338][ 98]Display: HotReload took 13.7s.
+[2024.11.03-04.41.11:338][ 98]Display: Reload/Re-instancing Complete: 1 package changed, 39 classes unchanged, 3 enums unchanged, 1 scriptstruct unchanged, 13 functions remapped, 1 scriptstruct remapped

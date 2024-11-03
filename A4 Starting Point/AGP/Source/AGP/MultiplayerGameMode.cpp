@@ -30,7 +30,7 @@ void AMultiplayerGameMode::RespawnEnemy(AEnemyCharacter* Enemy)
 		FRotator SpawnRotation = Enemy->GetActorRotation();
 
 		// Play the death sound
-		if (Enemy->DeathSound) // Assuming DeathSound is a UAudioComponent or USoundBase in your AEnemyCharacter class
+		if (Enemy->DeathSound) 
 		{
 			UGameplayStatics::PlaySoundAtLocation(this, Enemy->DeathSound, SpawnLocation);
 		}
