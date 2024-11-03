@@ -6,6 +6,11 @@
 			"description": "Default Uncontrolled Changelist",
 			"files": [
 				"C:/Repos/A4-Repository/A4 Starting Point/AGP/Content/Levels/MultiplayerMap.umap",
+				"C:/Repos/A4-Repository/A4 Starting Point/AGP/Content/MinimapMaterial.uasset",
+				"C:/Repos/A4-Repository/A4 Starting Point/AGP/Content/Blueprints/BP_PlayerCharacter.uasset",
+				"C:/Repos/A4-Repository/A4 Starting Point/AGP/Content/Blueprints/Ui/Minimap_UI.uasset",
+				"C:/Repos/A4-Repository/A4 Starting Point/AGP/Content/MinimapTarget2D.uasset",
+				"C:/Repos/A4-Repository/A4 Starting Point/AGP/Content/Textures/arrow.uasset",
 				"C:/Users/byrne/OneDrive/Desktop/Gamedev/A4-Repository/A4 Starting Point/AGP/Content/Levels/MultiplayerMap.umap",
 				"C:/Users/byrne/OneDrive/Desktop/Gamedev/A4-Repository/A4 Starting Point/AGP/Content/Audio/BGM_cue.uasset",
 				"C:/Users/byrne/OneDrive/Desktop/Gamedev/A4-Repository/A4 Starting Point/AGP/Content/Blueprints/GameManagers/BP_MultiplayerGameMode.uasset",
