@@ -56,7 +56,8 @@ protected:
 	 * Will move the character along the CurrentPath or do nothing to the character if the path is empty.
 	 */
 	void MoveAlongPath();
-	void MoveToCover(UCoverNodeComponent* CoverNode);
+	UCoverNodeComponent* FindNearestCoverNode();
+	void MoveToCover();
 
 	/**
 	 * Logic that controls the enemy character when in the Patrol state.
@@ -129,6 +130,8 @@ public:
 
 	virtual void Tick(float DeltaTime) override;
 	virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components")
+	UCoverNodeComponent* CoverNodeComponent;
 
 private:
 	
@@ -144,8 +147,7 @@ private:
 	UPROPERTY()
 	UPlayerNotDetectedCondition* PlayerNotDetectedCondition;
 
-	UPROPERTY()
-	UCoverNodeComponent* CoverNodeComponent;
+
 
 	UPROPERTY()
 	UPickupManagerSubsystem* PickupManagerSubsystem;

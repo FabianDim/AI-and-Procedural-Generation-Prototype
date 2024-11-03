@@ -24,8 +24,7 @@ AEnemyCharacter::AEnemyCharacter()
 {
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-	
-
+	CoverNodeComponent = CreateDefaultSubobject<UCoverNodeComponent>(TEXT("CoverNodeComponent"));
 	PawnSensingComponent = CreateDefaultSubobject<UPawnSensingComponent>("Pawn Sensing Component");
 }
 void AEnemyCharacter::GetTickPatrol()
@@ -213,25 +212,47 @@ void AEnemyCharacter::MoveAlongPath()
 		CurrentPath.Pop();
 	}
 }
-
-void AEnemyCharacter::MoveToCover(UCoverNodeComponent* CoverNode)
+UCoverNodeComponent* AEnemyCharacter::FindNearestCoverNode()
 {
+	UCoverNodeComponent* NearestCoverNode = nullptr;
+	float NearestDistanceSq = FLT_MAX;
+
+	for (TActorIterator<AActor> ActorItr(GetWorld()); ActorItr; ++ActorItr)
+	{
+		AActor* Actor = *ActorItr;
+		UCoverNodeComponent* CurrentCoverNode = Actor->FindComponentByClass<UCoverNodeComponent>();
+		if (CurrentCoverNode && !CurrentCoverNode->bIsOccupied)
+		{
+			float DistanceSq = FVector::DistSquared(GetActorLocation(), CurrentCoverNode->GetComponentLocation());
+			if (DistanceSq < NearestDistanceSq)
+			{
+				NearestDistanceSq = DistanceSq;
+				NearestCoverNode = CurrentCoverNode;
+			}
+		}
+	}
+
+	return NearestCoverNode;
+}
+
+void AEnemyCharacter::MoveToCover()
+{
+	UCoverNodeComponent* CoverNode = FindNearestCoverNode();
 	if (!CoverNode)
 	{
-		UE_LOG(LogTemp, Error, TEXT("CoverNode is null in MoveToCover"));
+		UE_LOG(LogTemp, Error, TEXT("No available cover nodes"));
 		return;
 	}
 
 	FVector CoverLocation = CoverNode->GetComponentLocation();
 
-	if(CurrentPath.IsEmpty())
+	if (CurrentPath.IsEmpty())
 	{
 		CurrentPath = PathfindingSubsystem->GetPath(GetActorLocation(), CoverLocation);
 	}
 
-	// Set bIsOccupied to true to mark the cover as occupied
 	CoverNode->bIsOccupied = true;
-    
+
 	MoveAlongPath();
 }
 

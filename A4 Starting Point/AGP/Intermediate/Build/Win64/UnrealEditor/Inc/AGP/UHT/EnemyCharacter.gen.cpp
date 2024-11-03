@@ -171,6 +171,10 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 #endif
 		static const UECodeGen_Private::FFloatPropertyParams NewProp_PathfindingError;
 #if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_CoverNodeComponent_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_CoverNodeComponent;
+#if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_BehaviourTreeRoot_MetaData[];
 #endif
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_BehaviourTreeRoot;
@@ -182,10 +186,6 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_PlayerNotDetectedCondition_MetaData[];
 #endif
 		static const UECodeGen_Private::FObjectPropertyParams NewProp_PlayerNotDetectedCondition;
-#if WITH_METADATA
-		static const UECodeGen_Private::FMetaDataPairParam NewProp_CoverNodeComponent_MetaData[];
-#endif
-		static const UECodeGen_Private::FObjectPropertyParams NewProp_CoverNodeComponent;
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam NewProp_PickupManagerSubsystem_MetaData[];
 #endif
@@ -266,6 +266,14 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 #endif
 	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_PathfindingError = { "PathfindingError", nullptr, (EPropertyFlags)0x0020080000000001, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(AEnemyCharacter, PathfindingError), METADATA_PARAMS(Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_PathfindingError_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_PathfindingError_MetaData)) };
 #if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_CoverNodeComponent_MetaData[] = {
+		{ "Category", "Components" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "Characters/EnemyCharacter.h" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_CoverNodeComponent = { "CoverNodeComponent", nullptr, (EPropertyFlags)0x00100000000a001d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(AEnemyCharacter, CoverNodeComponent), Z_Construct_UClass_UCoverNodeComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_CoverNodeComponent_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_CoverNodeComponent_MetaData)) };
+#if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_BehaviourTreeRoot_MetaData[] = {
 		{ "ModuleRelativePath", "Characters/EnemyCharacter.h" },
 	};
@@ -284,13 +292,6 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_PlayerNotDetectedCondition = { "PlayerNotDetectedCondition", nullptr, (EPropertyFlags)0x0040000000000000, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(AEnemyCharacter, PlayerNotDetectedCondition), Z_Construct_UClass_UPlayerNotDetectedCondition_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_PlayerNotDetectedCondition_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_PlayerNotDetectedCondition_MetaData)) };
 #if WITH_METADATA
-	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_CoverNodeComponent_MetaData[] = {
-		{ "EditInline", "true" },
-		{ "ModuleRelativePath", "Characters/EnemyCharacter.h" },
-	};
-#endif
-	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_CoverNodeComponent = { "CoverNodeComponent", nullptr, (EPropertyFlags)0x0040000000080008, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, nullptr, nullptr, STRUCT_OFFSET(AEnemyCharacter, CoverNodeComponent), Z_Construct_UClass_UCoverNodeComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_CoverNodeComponent_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_CoverNodeComponent_MetaData)) };
-#if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_PickupManagerSubsystem_MetaData[] = {
 		{ "ModuleRelativePath", "Characters/EnemyCharacter.h" },
 	};
@@ -305,10 +306,10 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_CurrentState_Underlying,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_CurrentState,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_PathfindingError,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_CoverNodeComponent,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_BehaviourTreeRoot,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_PlayerDetectedCondition,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_PlayerNotDetectedCondition,
-		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_CoverNodeComponent,
 		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AEnemyCharacter_Statics::NewProp_PickupManagerSubsystem,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AEnemyCharacter_Statics::StaticCppClassTypeInfo = {
@@ -352,9 +353,9 @@ void EmptyLinkFunctionForGeneratedCodeEnemyCharacter() {}
 		{ EEnemyState_StaticEnum, TEXT("EEnemyState"), &Z_Registration_Info_UEnum_EEnemyState, CONSTRUCT_RELOAD_VERSION_INFO(FEnumReloadVersionInfo, 2484316000U) },
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Characters_EnemyCharacter_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AEnemyCharacter, AEnemyCharacter::StaticClass, TEXT("AEnemyCharacter"), &Z_Registration_Info_UClass_AEnemyCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AEnemyCharacter), 2806932550U) },
+		{ Z_Construct_UClass_AEnemyCharacter, AEnemyCharacter::StaticClass, TEXT("AEnemyCharacter"), &Z_Registration_Info_UClass_AEnemyCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AEnemyCharacter), 3443050412U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Characters_EnemyCharacter_h_400258495(TEXT("/Script/AGP"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Characters_EnemyCharacter_h_73659402(TEXT("/Script/AGP"),
 		Z_CompiledInDeferFile_FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Characters_EnemyCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Characters_EnemyCharacter_h_Statics::ClassInfo),
 		nullptr, 0,
 		Z_CompiledInDeferFile_FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Characters_EnemyCharacter_h_Statics::EnumInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Repos_A4_Repository_A4_Starting_Point_AGP_Source_AGP_Characters_EnemyCharacter_h_Statics::EnumInfo));

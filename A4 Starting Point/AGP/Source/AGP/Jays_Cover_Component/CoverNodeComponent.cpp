@@ -54,8 +54,14 @@ UCoverNodeComponent* UCoverNodeComponent::CheckForEnemy()
             else
             {
                 UE_LOG(LogTemp, Error, TEXT("Failed to detect enemy or invalid CoverNodeComponent"));
+                if (HitEnemy)
+                {
+                    UE_LOG(LogTemp, Error, TEXT("Hit Enemy Move cover calling"));
+                    HitEnemy->MoveToCover();
+                }
             }
         }
     }
+    if(!this)return nullptr;
     return this;
 }
