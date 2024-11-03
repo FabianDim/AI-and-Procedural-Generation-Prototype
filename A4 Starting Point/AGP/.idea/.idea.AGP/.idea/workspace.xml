@@ -14,6 +14,7 @@
       <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_CoverSpawner.uasset" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_EnemySpawner.uasset" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Blueprints/Cube_Blueprint.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Cube_Blueprint.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Levels/MultiplayerMap.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Levels/MultiplayerMap.umap" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRules/AGPModuleRules.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRules/AGPModuleRules.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/BuildRules/AGPModuleRulesManifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/BuildRules/AGPModuleRulesManifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Build/SourceFileCache.bin" afterDir="false" />
@@ -122,6 +123,7 @@
       <change beforePath="$PROJECT_DIR$/Intermediate/TargetInfo.AGP.json" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/TargetInfo.AGP.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Autosaves/PackageRestoreData.json" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Autosaves/PackageRestoreData.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WindowsEditor/EditorPerProjectUserSettings.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Saved/Config/WorldState/3469732527.json" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Config/WorldState/3469732527.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/Logs/AGP.log" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/Logs/AGP.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Saved/SourceControl/UncontrolledChangelists.json" beforeDir="false" afterPath="$PROJECT_DIR$/Saved/SourceControl/UncontrolledChangelists.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/AGP/EnemySpawner.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/AGP/EnemySpawner.cpp" afterDir="false" />
@@ -348,7 +350,7 @@
       <workItem from="1730554978065" duration="1589000" />
       <workItem from="1730563115459" duration="720000" />
       <workItem from="1730598714982" duration="6830000" />
-      <workItem from="1730617344060" duration="331000" />
+      <workItem from="1730617344060" duration="678000" />
     </task>
     <servers />
   </component>
