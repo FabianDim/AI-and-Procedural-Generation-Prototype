@@ -23,7 +23,7 @@ font-family: Consolas, "Courier New", monospace;
 	CurrentStatus = update();
 	if(CurrentStatus != EStatus::Running) OnTerminate(CurrentStatus);
 	return CurrentStatus;
-} </pre>/code>
+} </pre></code>
 
 <p>This tick function served as the base for how the other classes, such as the sequences and the selectors, would use the update methods and understand the statuses each action would give. Statuses are the foundation for how the tree works. An action or a class's update method would perform actions, and if things succeeded, they would return
   EStatus::Succeed, which is an enum that was created. Otherwise, they could fail and be considered EStatus::Fail or be considered EStatus::Running if they are running.
