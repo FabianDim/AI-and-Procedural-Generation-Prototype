@@ -1,11 +1,3 @@
-<style>
-  code{
-    background-color: dark-grey;
-    padding: 10px;
-  }
-font-family: Consolas, "Courier New", monospace;
-</style>
-
 <body>
   <h1>About this project</h1>
   <p>This project culminated two intensive assessment projects for our Advanced game development class. For the first part, we had to develop a system in unreal engine C++ and choose either AI or Procedural generation</p>
